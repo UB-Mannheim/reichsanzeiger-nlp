@@ -1,0 +1,14 @@
+title: NLP guidelines Reichsanzeiger
+description: Annotations guidelines for Reichsanzeiger
+# Local Setting
+#baseurl: ""
+#url: ""
+# Remote Setting
+baseurl: "/reichsanzeiger-nlp"
+url: "https://ub-mannheim.github.io"
+remote_theme: pmarsceill/just-the-docs@v0.3.3
+color_scheme: nil
+search_enabled: true
+aux_links:
+  "View on GitHub":
+    - "//github.com/UB-Mannheim/reichsanzeiger-nlp"
