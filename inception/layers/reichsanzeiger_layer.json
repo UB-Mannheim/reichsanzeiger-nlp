@@ -1,0 +1,118 @@
+[ {
+  "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+  "features" : [ {
+    "name" : "identifier",
+    "tag_set" : null,
+    "uiName" : "identifier",
+    "type" : "kb:<ANY>",
+    "enabled" : true,
+    "visible" : true,
+    "include_in_hover" : false,
+    "required" : false,
+    "remember" : false,
+    "hideUnconstraintFeature" : false,
+    "description" : "Linked entity",
+    "project_name" : "Reichsanzeiger-NLP",
+    "multi_value_mode" : "NONE",
+    "link_mode" : "NONE",
+    "link_type_name" : null,
+    "link_type_role_feature_name" : null,
+    "link_type_target_feature_name" : null,
+    "traits" : "{\"repositoryId\":\"pid-2-kbid-\",\"scope\":null,\"allowedValueType\":\"INSTANCE\",\"keyBindings\":[]}",
+    "curatable" : true
+  }, {
+    "name" : "value",
+    "tag_set" : {
+      "name" : "RA Named Entity tags",
+      "description" : "Named Entity Annotation",
+      "language" : "de",
+      "tags" : [ {
+        "tag_name" : "COMP.demonym",
+        "tag_description" : "the geographical origin of a person"
+      }, {
+        "tag_name" : "COMP.func",
+        "tag_description" : "a function or job of a named person"
+      }, {
+        "tag_name" : "COMP.name",
+        "tag_description" : "first, middle and last names as well as nickname and initials of a person"
+      }, {
+        "tag_name" : "COMP.qualifier",
+        "tag_description" : "specifies a person in the form of a qualifying adjective"
+      }, {
+        "tag_name" : "COMP.title",
+        "tag_description" : "title or designator of a person"
+      }, {
+        "tag_name" : "LOC.add",
+        "tag_description" : "physical & electronic addresses"
+      }, {
+        "tag_name" : "LOC.adm",
+        "tag_description" : "a territory with a geopolitical border (e.g., cities, countries & continents)"
+      }, {
+        "tag_name" : "LOC.fac",
+        "tag_description" : "named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation"
+      }, {
+        "tag_name" : "LOC.oro",
+        "tag_description" : "an oronym (e.g., are streets, squares, roads & highways)"
+      }, {
+        "tag_name" : "LOC.phys",
+        "tag_description" : "a physical location (e.g., mountains, rivers & planets)"
+      }, {
+        "tag_name" : "ORG.adm",
+        "tag_description" : "an organisation which plays a mainly administrative role"
+      }, {
+        "tag_name" : "ORG.ent",
+        "tag_description" : "an organisation which doesn’t play a mainly administrative role"
+      }, {
+        "tag_name" : "PER.coll",
+        "tag_description" : "more than one individual"
+      }, {
+        "tag_name" : "PER.ind",
+        "tag_description" : "an individual"
+      }, {
+        "tag_name" : "PROD.media",
+        "tag_description" : "media production (e.g., newspapers, magazines & sales catalogues)"
+      }, {
+        "tag_name" : "TIME.date.abs",
+        "tag_description" : "an absolute date (specific date, not a relative date)"
+      } ],
+      "create_tag" : false
+    },
+    "uiName" : "value",
+    "type" : "uima.cas.String",
+    "enabled" : true,
+    "visible" : true,
+    "include_in_hover" : false,
+    "required" : false,
+    "remember" : false,
+    "hideUnconstraintFeature" : false,
+    "description" : "Named entity type",
+    "project_name" : "Reichsanzeiger-NLP",
+    "multi_value_mode" : "NONE",
+    "link_mode" : "NONE",
+    "link_type_name" : null,
+    "link_type_role_feature_name" : null,
+    "link_type_target_feature_name" : null,
+    "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"RADIOGROUP\",\"keyBindings\":[]}",
+    "curatable" : true
+  } ],
+  "uiName" : "Named entity",
+  "type" : "span",
+  "description" : null,
+  "enabled" : true,
+  "built_in" : true,
+  "readonly" : false,
+  "attach_type" : null,
+  "attach_feature" : null,
+  "allow_stacking" : true,
+  "cross_sentence" : false,
+  "show_hover" : true,
+  "anchoring_mode" : "TOKENS",
+  "overlap_mode" : "ANY_OVERLAP",
+  "validation_mode" : "ALWAYS",
+  "lock_to_token_offset" : false,
+  "multiple_tokens" : true,
+  "project_name" : "Reichsanzeiger-NLP",
+  "linked_list_behavior" : false,
+  "on_click_javascript_action" : null,
+  "traits" : null
+} ]

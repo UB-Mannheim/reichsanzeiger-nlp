@@ -1,0 +1,55 @@
+{
+  "name" : "RA Named Entity tags",
+  "description" : "Named Entity Annotation",
+  "language" : "de",
+  "tags" : [ {
+    "tag_name" : "COMP.demonym",
+    "tag_description" : "the geographical origin of a person"
+  }, {
+    "tag_name" : "COMP.func",
+    "tag_description" : "a function or job of a named person"
+  }, {
+    "tag_name" : "COMP.name",
+    "tag_description" : "first, middle and last names as well as nickname and initials of a person"
+  }, {
+    "tag_name" : "COMP.qualifier",
+    "tag_description" : "specifies a person in the form of a qualifying adjective"
+  }, {
+    "tag_name" : "COMP.title",
+    "tag_description" : "title or designator of a person"
+  }, {
+    "tag_name" : "LOC.add",
+    "tag_description" : "physical & electronic addresses"
+  }, {
+    "tag_name" : "LOC.adm",
+    "tag_description" : "a territory with a geopolitical border (e.g., cities, countries & continents)"
+  }, {
+    "tag_name" : "LOC.fac",
+    "tag_description" : "named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation"
+  }, {
+    "tag_name" : "LOC.oro",
+    "tag_description" : "an oronym (e.g., are streets, squares, roads & highways)"
+  }, {
+    "tag_name" : "LOC.phys",
+    "tag_description" : "a physical location (e.g., mountains, rivers & planets)"
+  }, {
+    "tag_name" : "ORG.adm",
+    "tag_description" : "an organisation which plays a mainly administrative role"
+  }, {
+    "tag_name" : "ORG.ent",
+    "tag_description" : "an organisation which doesn’t play a mainly administrative role"
+  }, {
+    "tag_name" : "PER.coll",
+    "tag_description" : "more than one individual"
+  }, {
+    "tag_name" : "PER.ind",
+    "tag_description" : "an individual"
+  }, {
+    "tag_name" : "PROD.media",
+    "tag_description" : "media production (e.g., newspapers, magazines & sales catalogues)"
+  }, {
+    "tag_name" : "TIME.date.abs",
+    "tag_description" : "an absolute date (specific date, not a relative date)"
+  } ],
+  "create_tag" : false
+}
