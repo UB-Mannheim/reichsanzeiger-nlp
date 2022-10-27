@@ -5,6 +5,7 @@ COMP.func	a function or job of a named person
 COMP.name	first, middle and last names as well as nickname and initials of a person
 COMP.qualifier	specifies a person in the form of a qualifying adjective
 COMP.title	title or designator of a person
+EVENT	an event
 LOC.add	physical & electronic addresses
 LOC.adm	a territory with a geopolitical border (e.g., cities, countries & continents)
 LOC.fac	named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation

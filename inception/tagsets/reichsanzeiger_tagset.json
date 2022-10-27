@@ -18,6 +18,9 @@
     "tag_name" : "COMP.title",
     "tag_description" : "title or designator of a person"
   }, {
+    "tag_name" : "EVENT",
+    "tag_description" : "an event"
+  }, {
     "tag_name" : "LOC.add",
     "tag_description" : "physical & electronic addresses"
   }, {
