@@ -43,7 +43,8 @@ Manual annotators shall use only subtypes and components.
 | | LOC.fac | named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation | p.36 [5]; p.19 [1] |
 | | LOC.add | physical & electronic addresses | p.37 [5]; p.20 [1] |
 | PROD | PROD.media | media production (e.g., newspapers, magazines & sales catalogues)   | p.41 [5]; p.22 [1] |
-| TIME | TIME.date.abs | an absolute date (specific date, not a relative date) | p.57 [5]; p.23 [1] |
+| TIME | TIME.date.abs | an absolute date (specific date, not a relative date; also the dates containing only a day and month; also the years only) | p.57 [5]; p.23 [1] 
+| EVENT | EVENT | an event | p.63 [5] |
 
 ### Components
 
