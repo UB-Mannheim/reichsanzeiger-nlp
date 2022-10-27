@@ -37,7 +37,7 @@ Manual annotators shall use only subtypes and components.
 | | PER.coll | more than one individual | p.21 [5]; p.9 [1] |
 | ORG | ORG.adm | an organisation which plays a mainly administrative role | p.31 [5]; p.15 [1] |
 | | ORG.ent | an organisation which doesn't play a mainly administrative role | p.29 [5]; p.14 [1] |
-| LOC | LOC.adm | a territory with a geopolitical border (e.g., cities, countries & continents) | p.32 [5]; p.15 [1] |
+| LOC | LOC.adm | a territory with a geopolitical border (e.g., cities, city districts, countries & continents) | p.32 [5]; p.15 [1] |
 | | LOC.phys | a physical location (e.g., mountains, rivers & planets) | p.34 [5]; p.17 [1] |
 | | LOC.oro | an oronym (e.g., are streets, squares, roads & highways) | p.35 [5]; p.18 [1] |
 | | LOC.fac | named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation | p.36 [5]; p.19 [1] |
