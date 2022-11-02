@@ -18,7 +18,7 @@
     "link_type_name" : null,
     "link_type_role_feature_name" : null,
     "link_type_target_feature_name" : null,
-    "traits" : "{\"repositoryId\":\"pid-2-kbid-\",\"scope\":null,\"allowedValueType\":\"INSTANCE\",\"keyBindings\":[]}",
+    "traits" : "{\"repositoryId\":\"pid-2-kbid-\",\"scope\":null,\"allowedValueType\":\"ANY_OBJECT\",\"keyBindings\":[]}",
     "curatable" : true
   }, {
     "name" : "value",
@@ -41,6 +41,9 @@
       }, {
         "tag_name" : "COMP.title",
         "tag_description" : "title or designator of a person"
+      }, {
+        "tag_name" : "EVENT",
+        "tag_description" : "an event"
       }, {
         "tag_name" : "LOC.add",
         "tag_description" : "physical & electronic addresses"
@@ -104,7 +107,7 @@
   "attach_type" : null,
   "attach_feature" : null,
   "allow_stacking" : true,
-  "cross_sentence" : false,
+  "cross_sentence" : true,
   "show_hover" : true,
   "anchoring_mode" : "TOKENS",
   "overlap_mode" : "ANY_OVERLAP",
