@@ -5,14 +5,15 @@ This is work in progress. The goal is creating a NLP ground truth corpus based o
 ## Ongoing work
 
 * :white_check_mark: Convert the unprocessed text lines from [Reichsanzeiger PAGE XML](https://github.com/UB-Mannheim/reichsanzeiger-gt/tree/main/page-xml) files to separate lines in TXT files [via [blatt to_txt](https://github.com/UB-Mannheim/blatt)]. See `data/text_raw/`.
-* :white_check_mark: Remove hyphens & line breaks from the text lines from [Reichsanzeiger](https://github.com/UB-Mannheim/reichsanzeiger-gt/tree/main/page-xml) files and save them as plain text in TXT files [via [blatt to_txt](https://github.com/UB-Mannheim/blatt)]. See `data/text_unhyphenated/`.
-* :white_check_mark: Split plain text without line breaks & without hyphens into sentences & save it as one sentence per line TSV files [via [blatt to_tsv](https://github.com/UB-Mannheim/blatt)]. See `data/sentences_raw/`.
-* :soon: Correct sentence splitting manually and remove "noisy data" (e.g., tables). See `data/sentences_checked/`.
-* :soon: Import plain text (one sentence per line) to [INCEpTION](https://inception-project.github.io)
-* :soon: Create the annotation guidelines
-* :soon: Create a tagset and annotation layer in [INCEpTION](https://inception-project.github.io) according to the annotation guidelines
-* :soon: Annotate plain text according to the annotation guidelines
-* :soon: Export the annotations in IOB and INCEpTION formats (e.g., [UIMA CAS XMI](https://inception-project.github.io/releases/24.2/docs/user-guide.html#sect_formats_uimaxmi))
+* :white_check_mark: Remove hyphens & line breaks from the text lines from [Reichsanzeiger](https://github.com/UB-Mannheim/reichsanzeiger-gt/tree/main/page-xml) files and save them as plain text in TXT files [via [blatt to_txt](https://github.com/UB-Mannheim/blatt)]. See [data/text_unhyphenated/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/text_unhyphenated).
+* :white_check_mark: Split plain text without line breaks & without hyphens into sentences & save it as one sentence per line TSV files [via [blatt to_tsv](https://github.com/UB-Mannheim/blatt)]. See [data/sentences_raw/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/sentences_raw).
+* :hourglass_flowing_sand: Correct sentence splitting manually and remove "noisy data" (e.g., tables). See [data/sentences_checked/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/sentences_checked).
+* :hourglass_flowing_sand: Import plain text (one sentence per line) to [INCEpTION](https://inception-project.github.io)
+* :hourglass_flowing_sand: Create the [annotation guidelines](https://ub-mannheim.github.io/reichsanzeiger-nlp)
+* :white_check_mark: Create a tagset and annotation layer in [INCEpTION](https://inception-project.github.io) according to the annotation guidelines. See [inception/tagsets/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/inception/tagsets) and [inception/layers](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/inception/layers).
+* :hourglass_flowing_sand: Annotate plain text according to the annotation guidelines
+* :hourglass_flowing_sand: Export the annotations in INCEpTION formats (e.g., [UIMA CAS XMI](https://inception-project.github.io/releases/24.2/docs/user-guide.html#sect_formats_uimaxmi)). See [data/UIMA_CAS_XMI_v1.0/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/UIMA_CAS_XMI_v1.0).
+* :soon: Create a convertor from XMI to IOB format and convert XMI files into IOB files
 * :soon: Correct tokenization manually in IOB format
 * :soon: Train baseline models for NER/NEL
 
