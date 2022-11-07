@@ -50,9 +50,8 @@ The types and their subtypes categorize a named entity. This is the first level 
 | | LOC.add | physical & electronic addresses | p.37 [5]; p.20 [1] |
 | PROD | PROD.media | media production (e.g., newspapers, magazines & sales catalogues)   | p.41 [5]; p.22 [1] |
 | TIME | TIME.date.abs | an absolute date (specific date, not a relative date; the dates containing only a day and a month, only a year or only a century) | p.57 [5]; p.23 [1] |
+| TIME | TIME.range | a time interval between two absolute dates | - |
 | EVENT | EVENT | an event | p.63 [5] |
-
-TO DO: decide on TIME.range or TIME.interval types for intervals between two TIME.date.abs
 
 ### Components
 
