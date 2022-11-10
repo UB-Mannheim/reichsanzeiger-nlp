@@ -146,7 +146,6 @@ Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter u
 
 <PER.ind> <COMP.title> Se. Exc. der General⸗Lieutenant > </COMP.title>, <COMP.func> diesſeitiger außerordentlicher Geſandter </COMP.func>  und <COMP.func> bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe</COMP.func>  <COMP.title> Freiherr </COMP.title> <COMP.name> von Schoͤler </COMP.name> </PER.ind>
 
-
 Seite 13: tricky cases for person: Impresso file
 
 ### EVENT
@@ -158,7 +157,6 @@ Geburt des jungen Prinzen: nicht specific/kein Wikipedia Artikel
 ### LOCATION
 
 Loc.add wird nicht mit wikipedia data Eintrag von Straße verknüpft
-
 
 ## References
 
