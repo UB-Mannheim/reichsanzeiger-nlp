@@ -13,6 +13,7 @@ Table of contents
 * [General instructions](#general-instructions)
 * [Entities](#entities)
 * [Entity Linking](#entity-linking)
+* [Examples](#examples)
 * [References](#references)
 
 **Status.** This is a draft version.
@@ -119,44 +120,46 @@ TO DO: do we want to take this into account?
 
 #### Tricky cases for Person
 
+TODO
+
 ## Entity linking
+
+TODO
 
 ## Examples
 
 ### PERSON
 
-Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen
+```Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen.```
 <PER.ind> <COMP.title>Sr. hochfürſtlichen Durchl. </COMP.title> des <COMP.title> Prinzen</COMP.title>  <COMP.name>Friedrich</COMP.name>, <COMP.func>Sohnes <PER.ind> <COMP.title>Sr. Hoheit</COMP.title> des <COMP.title>Kurprinzen </COMP.title> </COMP.name> </PER.ind>  </PER.ind>
 
-Kaiſerlich Oeſterreichſche Kabinets⸗Kourier Vardioro
+```Kaiſerlich Oeſterreichſche Kabinets⸗Kourier Vardioro.```
 <PER.ind> <COMP.title>Kaiſerlich></COMP.title> <COMP.demonym> Oeſterreichſche </COMP.demonym> <COMP.func>Kabinets⸗Kourier</COMP.func> <COMP.name> Vardioro </COMP.name> </PER.ind>
 
-Prinzeßinen Töchtern, Amalie und Maria
+```Prinzeßinen Töchtern, Amalie und Maria.```
 <PER.coll><COMP.title> Prinzeßinen</COMP.title> Töchtern, <COMP.name> Amalie</COMP.name>  und <COMP.name> Maria</COMP.name> </PER.coll>
 
-Kommandeurs des Ordens des Heiligen Geiſtes den Kardinal de la Luzerne, den Kardinal de Bausset, den Erzbiſchof von Bordeaux und den Abbe Montesquiou
-
+```Kommandeurs des Ordens des Heiligen Geiſtes den Kardinal de la Luzerne, den Kardinal de Bausset, den Erzbiſchof von Bordeaux und den Abbe Montesquiou.```
 <PER.coll><COMP.func>Kommandeurs des <ORG.ent>Ordens des Heiligen Geiſtes</ORG.ent></COMP.func> den <PER.ind><COMP.func>Kardinal</COMP.func> de la <COMP.demonym>Luzerne</COMP.demonym></PER.ind>, den >PER.ind> <COMP.func> Kardinal </COMp.func> <COMP.name> de Bausset </COMP.name> </PER.ind>, <PER.ind> den <COMP.func> Erzbiſchof </COMP.func> <COMP.demonym> von Bordeaux </COMP.demonym> </PER.ind> und <PER.ind> den <COMP.func>Abbe </COMP.func> Montesquiou </PER.ind></PER.coll>
 
-Herzog und die Herzogin von Angouleme
+```Herzog und die Herzogin von Angouleme.```
 <PER.coll><PER.ind><COMP.title>Herzog</COMP.title></PER.ind> und die PER.ind><COMP.title> Herzogin </COMP.title></PER.ind> <COMP.name>von Angouleme</COMP.name></PER.coll>
 
-Nested entities with components are also annotated 
-Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler
-
+Nested entities with components are also annotated:
+```Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.```
 <PER.ind> <COMP.title> Se. Exc. der General⸗Lieutenant > </COMP.title>, <COMP.func> diesſeitiger außerordentlicher Geſandter </COMP.func>  und <COMP.func> bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe</COMP.func>  <COMP.title> Freiherr </COMP.title> <COMP.name> von Schoͤler </COMP.name> </PER.ind>
 
 Seite 13: tricky cases for person: Impresso file
 
 ### EVENT
 
-Schlacht an der Katzbach: specific/Wikipedia aritcle exists
+Schlacht an der Katzbach: specific and a Wikipedia page exists
 
-Geburt des jungen Prinzen: nicht specific/kein Wikipedia Artikel 
+Geburt des jungen Prinzen: not specific, no Wikipedia page
 
 ### LOCATION
 
-Loc.add wird nicht mit wikipedia data Eintrag von Straße verknüpft
+Streets with house numbers, annotated as LOC.add, will no be linked to streets or buildings at Wikidata.
 
 ## References
 
