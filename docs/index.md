@@ -49,7 +49,7 @@ The types and their subtypes categorize a named entity. This is the first level 
 | | LOC.fac | named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation | p.36 [5]; p.19 [1] |
 | | LOC.add | physical & electronic addresses | p.37 [5]; p.20 [1] |
 | PROD | PROD.media | media production (e.g., newspapers, magazines & sales catalogues)   | p.41 [5]; p.22 [1] |
-| TIME | TIME.date.abs | an absolute date (specific date, not a relative date; the dates containing only a day and a month, only a year or only a century) | p.57 [5]; p.23 [1] |
+| TIME | TIME.date.abs | an absolute date (specific date, not a relative date; the dates containing only a day and a month, a month and a year, only a year or only a century) | p.57 [5]; p.23 [1] |
 | TIME | TIME.range | a time interval between two absolute dates | - |
 | EVENT | EVENT | an event | p.63 [5] |
 
