@@ -346,13 +346,13 @@ Berl n /Leipz g to Berlin/ Leipzig
 ```
 In case of locations that can't be clealy attributed to a city or another location because they are both a city and a location with the same name exist (for example: Samos -> is both city and island) no QID is assigned 
 
-Gardens: LOC.phys (for example: Jardin des Tuileries)
+Gardens: LOC.phys (e.g. Jardin des Tuileries)
 
 Islands: LOC.adm 
 
 Theaters: LOC.fac 
 
-ancient cities: LOC.adm (for example Pompeii)
+ancient cities: LOC.adm (e.g. Pompeii)
 
 ### ORGANISATION
 
