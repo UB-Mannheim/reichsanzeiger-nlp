@@ -333,11 +333,13 @@ Dezember 1831: specific -> annotated
 
 Streets with house numbers, annotated as LOC.add, will no be linked to streets or buildings at Wikidata.
 
-```Ireland, when alone: https://www.wikidata.org/wiki/Q22890```
-```Great Britain and Ireland, together (1801- 1927): https://www.wikidata.org/wiki/Q174193```
-```Great Britain, when alone: https://www.wikidata.org/wiki/Q23666```
+Ireland, when alone: https://www.wikidata.org/wiki/Q22890
 
-Berl n /Leipz g to Berlin/ Leipzig 
+Great Britain and Ireland, together (1801- 1927): https://www.wikidata.org/wiki/Q174193
+
+Great Britain, when alone: https://www.wikidata.org/wiki/Q23666
+
+Berl n / Leipz g to Berlin / Leipzig 
 
 ```Berlin Breitestaße No 20```
 ```xml
