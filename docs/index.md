@@ -199,7 +199,7 @@ TODO
 </PER.coll>
 ```
 
-```Herzog und die Herzogin von Angouleme.```
+```Herzog und die Herzogin von Angouleme```
 ```xml
 <PER.coll>
     <PER.ind>
@@ -211,6 +211,15 @@ TODO
     </PER.ind>
     <COMP.name>von Angouleme</COMP.name>
 </PER.coll>
+```
+
+```Frau von Lepel, geb. v. d. Lanken```
+```xml
+<PER.ind> Frau von 
+     <COMP.name> Lepel </COMP.name>
+     , geb. v. d. 
+     <COMP.name> Lanken </COMP.name> 
+ </PER.ind>
 ```
 
 Nested entities with components are also annotated:
@@ -225,6 +234,19 @@ Nested entities with components are also annotated:
     <COMP.name>von Schoͤler</COMP.name>
 </PER.ind>
 ```
+
+```Britiſche General⸗Konſul in Tripolis, Herr Warrington```
+```xml
+<PER.ind>
+     <COMP.func>
+     <COMP.demonym>Britiſche</COMP.demonym>
+      General⸗Konſul in
+     <LOC.adm>Tripolis</LOC.adm>
+     </COMP.func>
+     ,Herr
+     <COMP.name>Warrington</COMP.name>
+</PER.ind>
+```xml
 
 ####  tricky cases for person
 
@@ -298,9 +320,57 @@ Schlacht an der Katzbach: specific and a Wikipedia page exists
 
 Geburt des jungen Prinzen: not specific, no Wikipedia page
 
+### DATE
+
+21ster d. Mts -> not specific -> not annotated
+
+Michaelis d. J. -> 29. September 
+
+Ende Dezember 1831: not specific -> not annotated
+Dezember 1831: specific -> annotated
+
 ### LOCATION
 
 Streets with house numbers, annotated as LOC.add, will no be linked to streets or buildings at Wikidata.
+
+Ireland, when alone: https://www.wikidata.org/wiki/Q22890 
+Great Britain and Ireland, together (1801- 1927): https://www.wikidata.org/wiki/Q174193 
+Great Britain, when alone: https://www.wikidata.org/wiki/Q23666 
+
+Berl n /Leipz g to Berlin/ Leipzig 
+
+```Berlin Breitestaße No 20```
+```xml
+<loc.adm> Berlin </loc.adm>
+<loc.add> Breitestaße No 20 </loc.add> 
+```
+In case of locations that can't be clealy attributed to a city or another location because they are both a city and a location with the same name exist (for example: Samos -> is both city and island) no QID is assigned 
+
+Gardens: LOC.phys (for example: Jardin des Tuileries)
+
+Islands: LOC.adm 
+
+Theaters: LOC.fac 
+
+ancient cities: LOC.adm (for example Pompeii)
+
+### ORGANISATION
+
+```Pariser Bijoutier Odiot```
+<ORG.ent>
+     <COMP.demonym>Pariser</COMP.demonym>
+     Bijoutier
+     <PER.ind>Odiot</PER.ind>
+ </ORG.ent> 
+PER.ind not annotated
+
+Museums: ORG.ent
+
+Königliche Regierungs-Hauptkasse, Königlichen Staatsschulden-Tilgungskasse etc.: ORG.adm
+
+### PROD.media
+
+names Preußischer Staatsanzeiger: https://www.wikidata.org/wiki/Q55257346 
 
 ## References
 
