@@ -246,7 +246,7 @@ Nested entities with components are also annotated:
      ,Herr
      <COMP.name>Warrington</COMP.name>
 </PER.ind>
-```xml
+```
 
 ####  tricky cases for person
 
@@ -359,11 +359,13 @@ ancient cities: LOC.adm (e.g. Pompeii)
 ### ORGANISATION
 
 ```Pariser Bijoutier Odiot```
+```xml
 <ORG.ent>
      <COMP.demonym>Pariser</COMP.demonym>
      Bijoutier
      <PER.ind>Odiot</PER.ind>
  </ORG.ent> 
+```
 PER.ind not annotated
 
 Museums: ORG.ent
