@@ -372,6 +372,8 @@ Museums: ORG.ent
 
 Königliche Regierungs-Hauptkasse, Königlichen Staatsschulden-Tilgungskasse etc.: ORG.adm
 
+hospitals: ORG.ent
+
 ### PROD.media
 
 names Preußischer Staatsanzeiger: https://www.wikidata.org/wiki/Q55257346 
