@@ -98,7 +98,7 @@ TO DO: do we want to take this into account?
   * imaginary characters and characters of literature pieces (e.g., Marthe Schwerdtlein)
   * religious figures (God)
 * Not considered as Person: (TO DO: decide on this keeping in mind the entity linking task)
-  * expressions without a proper name
+  * expressions without a proper name except expressions containing title and demonym (e.g., Großherzog von Baden)
   * demonyms which do not modify a proper name
   * isolated functions not attached to a person name
 * Considered as Person.Collective:
@@ -132,6 +132,16 @@ TO DO: do we want to take this into account?
 </PER.coll>
 ```
 
+The expressions containing title and demonym are annotated:
+
+```Großherzog von Baden```
+```xml
+<PER.ind>
+    <COMP.title>Großherzog></COMP.title> 
+    <COMP.demonym>von Baden</COMP.demonym>
+</PER.ind>
+```
+
 ### Organization (ORG)
 
 #### Subtypes
@@ -144,7 +154,7 @@ TO DO: do we want to take this into account?
 * Considered as Organization:
   * registered organizations
   * museums, institutes, universities, libraries
-  * 
+  * restaraunts
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
 
