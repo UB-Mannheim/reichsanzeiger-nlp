@@ -40,14 +40,14 @@ The types and their subtypes categorize a named entity. This is the first level 
 
 | Type | Subtypes | The entity refers to | Source |
 |:----|:-----|:-----|:-----|
-| PER | PER.ind | an individual | p.21 [5]; p.9 [1] |
-| | PER.coll | more than one individual | p.21 [5]; p.9 [1] |
+| PER | PER.ind | an individual (a proper name should be a part of the entity) | p.21 [5]; p.9 [1] |
+| | PER.coll | more than one individual (a proper name should be a part of the entity) | p.21 [5]; p.9 [1] |
 | ORG | ORG.adm | an organisation which plays a mainly administrative role | p.31 [5]; p.15 [1] |
 | | ORG.ent | an organisation which doesn't play a mainly administrative role | p.29 [5]; p.14 [1] |
 | LOC | LOC.adm | a territory with a geopolitical border (e.g., cities, city districts, countries & continents) | p.32 [5]; p.15 [1] |
 | | LOC.phys | a physical location (e.g., mountains, rivers & planets) | p.34 [5]; p.17 [1] |
 | | LOC.oro | an oronym (e.g., are streets, squares, roads & highways) | p.35 [5]; p.18 [1] |
-| | LOC.fac | named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation | p.36 [5]; p.19 [1] |
+| | LOC.fac | named buildings (train station & museum), named constructions (gates & bridges) & their extensions (stadium & campus); a physical location of an organisation | p.36 [5]; p.19 [1] |
 | | LOC.add | physical & electronic addresses | p.37 [5]; p.20 [1] |
 | PROD | PROD.media | media production (e.g., newspapers, magazines & sales catalogues)   | p.41 [5]; p.22 [1] |
 | TIME | TIME.date.abs | an absolute date (specific date, not a relative date; the dates containing only a day and a month, a month and a year, only a year or only a century) | p.57 [5]; p.23 [1] |
@@ -101,6 +101,10 @@ TO DO: do we want to take this into account?
   * expressions without a proper name
   * demonyms which do not modify a proper name
   * isolated functions not attached to a person name
+* Considered as Person.Collective:
+  * more than one individual containing a proper name (e.g., )
+* Not considered as Person.Collective:
+  * citizens or residents of certain geographic areas (e.g., Löwenberger, Plagwitzer, die letzten Franzoſen)
 
 #### Person Components
 
@@ -120,7 +124,13 @@ TO DO: do we want to take this into account?
 
 #### Tricky cases for Person
 
-TODO
+```Blücherſchen Heere```
+```xml
+<PER.coll>
+    <PER.ind>Blücherſchen></PER.ind> 
+    <COMP.func>Heere</COMP.func>
+</PER.coll>
+```
 
 ### Organization (ORG)
 
@@ -138,7 +148,24 @@ TODO
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
 
-#### Tricky cases for Organization
+#### Tricky cases for Location
+
+### Location (LOC)
+
+#### Subtypes
+
+* LOC.: 
+* LOC.: 
+
+#### Coverage of the type Location
+
+* Considered as Location:
+  * 
+  * 
+* Not considered as Location:
+  * 
+
+#### Tricky cases for Location
 
 ## Entity linking
 
