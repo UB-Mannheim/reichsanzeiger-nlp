@@ -122,6 +122,24 @@ TO DO: do we want to take this into account?
 
 TODO
 
+### Organization (ORG)
+
+#### Subtypes
+
+* ORG.adm: an organisation which plays a mainly administrative role.
+* ORG.ent: an organisation which doesn’t play a mainly administrative role
+
+#### Coverage of the type Organization
+
+* Considered as Organization:
+  * registered organizations
+  * museums, institutes, universities, libraries
+  * 
+* Not considered as Organization:
+  * theaters (annotate it as LOC.fac)
+
+#### Tricky cases for Organization
+
 ## Entity linking
 
 TODO
