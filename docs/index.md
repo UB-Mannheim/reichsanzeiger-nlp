@@ -414,6 +414,17 @@ Do we annotate titles standing alone?
 <\PER.ind>
 ```
 
+Do we annotate royal courts as PER.coll or ORG.adm?
+
+```Russischer Hof```
+```xml
+<PER.coll>Russisch Kaiserlicher Hof <\PER.coll> 
+ ```
+or
+```Russischer Hof```
+```xml
+<ORG.adm>Russisch Kaiserlicher Hof <\ORG.adm> 
+ ```
 
 ### EVENT
 
@@ -489,6 +500,19 @@ Museums: ORG.ent
 Königliche Regierungs-Hauptkasse, Königlichen Staatsschulden-Tilgungskasse etc.: ORG.adm
 
 hospitals: ORG.ent
+
+Do we annotate royal courts as PER.coll or ORG.adm?
+
+```Russischer Hof```
+```xml
+<PER.coll>Russisch Kaiserlicher Hof <\PER.coll> 
+ ```
+or
+```Russischer Hof```
+```xml
+<ORG.adm>Russisch Kaiserlicher Hof <\ORG.adm> 
+ ```
+
 
 ### PROD.media
 
