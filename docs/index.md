@@ -189,6 +189,7 @@ The expressions containing title and demonym are annotated:
 
 #### Tricky cases for Location
 
+*Specifications (for ex. island, colony etc.) of locations are annotated as well 
 ```Kolonie Bourbon```
 ```xml
 <LOC.adm>Kolonie Bourbon</LOC.adm> 
@@ -454,6 +455,8 @@ Theaters: LOC.fac
 
 ancient cities: LOC.adm (e.g. Pompeii)
 
+military buildings are annotated as LOC.fac
+
 ```Garnison Mühlberg```
 ```xml
 <LOC.fac> Garnison Mühlberg</LOC.fac>
@@ -471,6 +474,8 @@ ancient cities: LOC.adm (e.g. Pompeii)
  </ORG.ent> 
 ```
 PER.ind not annotated
+
+governments of a country are annotated as ORG.adm
 
 ```Niederländische Regierung```
 ```xml
