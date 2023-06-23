@@ -482,6 +482,7 @@ governments of a country are annotated as ORG.adm
 ```Niederländische Regierung```
 ```xml
 <ORG.adm>niederländische Regierung<\ORG.adm>
+ ```
 
 Museums: ORG.ent
 
