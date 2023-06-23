@@ -421,6 +421,7 @@ Do we annotate royal courts as PER.coll or ORG.adm?
 <PER.coll>Russisch Kaiserlicher Hof <\PER.coll> 
  ```
 or
+
 ```Russischer Hof```
 ```xml
 <ORG.adm>Russisch Kaiserlicher Hof <\ORG.adm> 
@@ -508,6 +509,7 @@ Do we annotate royal courts as PER.coll or ORG.adm?
 <PER.coll>Russisch Kaiserlicher Hof <\PER.coll> 
  ```
 or
+
 ```Russischer Hof```
 ```xml
 <ORG.adm>Russisch Kaiserlicher Hof <\ORG.adm> 
