@@ -189,7 +189,8 @@ The expressions containing title and demonym are annotated:
 
 #### Tricky cases for Location
 
-*Specifications (for ex. island, colony etc.) of locations are annotated as well 
+* Specifications (for ex. island, colony etc.) of locations are annotated as well
+  
 ```Kolonie Bourbon```
 ```xml
 <LOC.adm>Kolonie Bourbon</LOC.adm> 
