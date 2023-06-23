@@ -400,6 +400,7 @@ Similar cases:
 ```
 
 How to choose between COMP.demonym and LOC.adm?
+
 How to choose between COMP.demonym and COMP.name?
 
 Do we annotate titles standing alone? 
