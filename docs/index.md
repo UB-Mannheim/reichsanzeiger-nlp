@@ -132,6 +132,18 @@ TO DO: do we want to take this into account?
 </PER.coll>
 ```
 
+```Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych```
+```xml
+<PER.coll>
+          <COMP.title>Prinzen</COMP.title>
+          <PER.ind> Karl</PER.ind>, 
+          <PER.ind> Louis</PER.ind>
+          ,und 
+          <PER.ind> Ferdinand</PER.ind>
+          <COMP.demonym> zu Solms⸗Lych</COMP.demonym>
+</PER.coll>
+```
+
 The expressions containing title and demonym are annotated:
 
 ```Großherzog von Baden```
@@ -177,6 +189,11 @@ The expressions containing title and demonym are annotated:
 
 #### Tricky cases for Location
 
+```Kolonie Bourbon```
+```xml
+<LOC.adm>Kolonie Bourbon</LOC.adm> 
+```
+
 ## Entity linking
 
 TODO
@@ -188,17 +205,17 @@ TODO
 ```Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen.```
 ```xml
 <PER.ind> 
-        <COMP.title>Sr. hochfürſtlichen Durchl.</COMP.title> 
-        des
-        <COMP.title>Prinzen</COMP.title> 
-        <COMP.name>Friedrich</COMP.name>,
-        <COMP.func>Sohnes
-            <PER.ind> 
-                <COMP.title>Sr. Hoheit</COMP.title>
-                des
-                <COMP.title>Kurprinzen </COMP.title>
-            </PER.ind>
-        </COMP.func> 
+    <COMP.title>Sr. hochfürſtlichen Durchl.</COMP.title> 
+    des
+    <COMP.title>Prinzen</COMP.title> 
+    <COMP.name>Friedrich</COMP.name>,
+    <COMP.func>Sohnes
+         <PER.ind> 
+              <COMP.title>Sr. Hoheit</COMP.title>
+              des
+              <COMP.title>Kurprinzen </COMP.title>
+          </PER.ind>
+   </COMP.func> 
 </PER.ind>
 ```
 
@@ -276,6 +293,19 @@ TODO
      <COMP.name> Lanken </COMP.name> 
  </PER.ind>
 ```
+
+```Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe```
+```xml
+<PER.ind>
+         <COMP.func>Staats⸗Sekretair</COMP.func>
+         und
+         <COMP.func> Chef⸗Praͤſident der 
+                <ORG.adm>Haupt⸗Bank</ORG.adm>
+         </COMP.func> 
+         <COMP.name> Frieſe</COMP.name>
+</PER.ind>
+```
+
 
 Nested entities with components are also annotated:
 ```Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.```
@@ -355,8 +385,8 @@ Similar cases:
 ```xml
 <PER.ind>
     <COMP.func>Kardinal</COMP.func>
-    de la
-    <COMP.demonym>Luzerne</COMP.demonym>
+    de
+    <COMP.demonym> la Luzerne</COMP.demonym>
 </PER.ind>
 ```
 
@@ -368,6 +398,18 @@ Similar cases:
 ```
 
 How to choose between COMP.demonym and LOC.adm?
+How to choose between COMP.demonym and COMP.name?
+
+Do we annotate titles standing alone? 
+```Se. Koͤnigl. Hoheit der Herzog von Cumberland```
+```xml
+<PER.ind> 
+    <COMP.title>Se. Koͤnigl. Hoheit<\COMP.title> 
+    der
+   <COMP.title>Herzog von Cumberland<\COMP.title>
+<\PER.ind>
+```
+
 
 ### EVENT
 
@@ -411,6 +453,12 @@ Theaters: LOC.fac
 
 ancient cities: LOC.adm (e.g. Pompeii)
 
+```Garnison Mühlberg```
+```xml
+<LOC.fac> Garnison Mühlberg</LOC.fac>
+```
+
+
 ### ORGANISATION
 
 ```Pariser Bijoutier Odiot```
@@ -422,6 +470,10 @@ ancient cities: LOC.adm (e.g. Pompeii)
  </ORG.ent> 
 ```
 PER.ind not annotated
+
+```Niederländische Regierung```
+```xml
+<ORG.adm>niederländische Regierung<\ORG.adm>
 
 Museums: ORG.ent
 
