@@ -124,14 +124,6 @@ TO DO: do we want to take this into account?
 
 #### Tricky cases for Person
 
-```Blücherſchen Heere```
-```xml
-<PER.coll>
-    <PER.ind>Blücherſchen></PER.ind> 
-    <COMP.func>Heere</COMP.func>
-</PER.coll>
-```
-
 ```Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych```
 ```xml
 <PER.coll>
@@ -165,12 +157,21 @@ The expressions containing title and demonym are annotated:
 
 * Considered as Organization:
   * registered organizations
-  * museums, institutes, universities, libraries
-  * restaraunts
+  * museums, institutes, universities, libraries (annotate as ORG.ent)
+  * restaraunts (annotate as ORG.ent)
+  * military units (annotate as ORG.ent)
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
 
-#### Tricky cases for Location
+#### Tricky cases for Organization
+
+```Blücherſchen Heere```
+```xml
+<ORG.ent>
+    <PER.ind>Blücherſchen></PER.ind> 
+    <COMP.func>Heere</COMP.func>
+</ORG.ent>
+```
 
 ### Location (LOC)
 
