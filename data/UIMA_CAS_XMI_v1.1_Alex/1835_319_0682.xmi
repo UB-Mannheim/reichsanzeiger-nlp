@@ -6521,9 +6521,9 @@
     <type4:NamedEntity xmi:id="83013" sofa="1" begin="1726" end="1733" value="PER.ind" identifier="http://www.wikidata.org/entity/Q1800888"/>
     <type4:NamedEntity xmi:id="83049" sofa="1" begin="1765" end="1772" value="PER.ind" identifier="http://www.wikidata.org/entity/Q1800888"/>
     <type4:NamedEntity xmi:id="83829" sofa="1" begin="1911" end="1954" value="PER.coll"/>
-    <type4:NamedEntity xmi:id="83025" sofa="1" begin="1915" end="1923" value="PER.ind"/>
-    <type4:NamedEntity xmi:id="83031" sofa="1" begin="1929" end="1936" value="PER.ind"/>
-    <type4:NamedEntity xmi:id="83037" sofa="1" begin="1945" end="1954" value="PER.ind"/>
+    <type4:NamedEntity xmi:id="83025" sofa="1" begin="1915" end="1923" value="COMP.name"/>
+    <type4:NamedEntity xmi:id="83031" sofa="1" begin="1929" end="1936" value="COMP.name"/>
+    <type4:NamedEntity xmi:id="83037" sofa="1" begin="1945" end="1954" value="COMP.name"/>
     <type4:NamedEntity xmi:id="83043" sofa="1" begin="2559" end="2565" value="PER.ind" identifier="http://www.wikidata.org/entity/Q2447542"/>
     <type4:NamedEntity xmi:id="83085" sofa="1" begin="3308" end="3339" value="PROD.media"/>
     <type4:NamedEntity xmi:id="83067" sofa="1" begin="3344" end="3369" value="EVENT"/>
