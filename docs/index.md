@@ -97,12 +97,14 @@ TO DO: do we want to take this into account?
   * real person (e.g., Karl August von Hardenberg)
   * imaginary characters and characters of literature pieces (e.g., Marthe Schwerdtlein)
   * religious figures (God)
+  * titles if they can be distinctively attributed to one person for ex. via date (e.g., Se. Koͤnigl. Hoheit der Herzog von Cumberland)
 * Not considered as Person: (TO DO: decide on this keeping in mind the entity linking task)
   * expressions without a proper name except expressions containing title and demonym (e.g., Großherzog von Baden)
   * demonyms which do not modify a proper name
   * isolated functions not attached to a person name
 * Considered as Person.Collective:
   * more than one individual containing a proper name (e.g., )
+  * royal courts (e.g., Kaiserlicher Russischer Hofstaat)
 * Not considered as Person.Collective:
   * citizens or residents of certain geographic areas (e.g., Löwenberger, Plagwitzer, die letzten Franzoſen)
 
@@ -115,12 +117,15 @@ TO DO: do we want to take this into account?
   * a function always includes the organization, place or specialization attached to it [1]
 * COMP.title (title or designator of a person):
   *  a civil or honorific prefix (e.g., Frau, Herr, Dr., Majestät, königliche Hoheit), military titles (e.g., General, Leutnant), nobility titles and royal titles (Fürstin, Gräfin, Herzog, Ritter, Junker)
+  *  specifications of doctorates (e.g., Dr. jur., Dr. rer. nat.)
 * COMP.qualifier (specifies a person in the form of a qualifying adjective):
-  * any adjective qualifying the entity (e.g., sozialistische)
+  * any adjective qualifying the entity (e.g., sozialistische, senior, III.)
 * COMP.name (first, middle and last names as well as nickname and initials of a person):
   * covers first-, middle-, last- and nickname (e.g., Karl)
+  * names of noble families if the name is not related to a location (e.g., von Humboldt)
 * COMP.demonym (the geographical origin of a person):
   * a noun or adjective that identifies residents of a particular place (e.g., Bayerische)
+  * names of noble families if the name is related to a location (e.g., von Solms-Lych)
 
 #### Tricky cases for Person
 
@@ -160,6 +165,7 @@ The expressions containing title and demonym are annotated:
   * museums, institutes, universities, libraries (annotate as ORG.ent)
   * restaraunts (annotate as ORG.ent)
   * military units (annotate as ORG.ent)
+  * political parties (annotate as ORG.ent)
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
 
@@ -402,31 +408,6 @@ Similar cases:
 
 How to choose between COMP.demonym and LOC.adm?
 
-How to choose between COMP.demonym and COMP.name?
-
-Do we annotate titles standing alone? 
-
-```Se. Koͤnigl. Hoheit der Herzog von Cumberland```
-```xml
-<PER.ind> 
-    <COMP.title>Se. Koͤnigl. Hoheit<\COMP.title> 
-    der
-   <COMP.title>Herzog von Cumberland<\COMP.title>
-<\PER.ind>
-```
-
-Do we annotate royal courts as PER.coll or ORG.adm?
-
-```Russischer Hof```
-```xml
-<PER.coll>Russisch Kaiserlicher Hof <\PER.coll> 
- ```
-or
-
-```Russischer Hof```
-```xml
-<ORG.adm>Russisch Kaiserlicher Hof <\ORG.adm> 
- ```
 
 ### EVENT
 
