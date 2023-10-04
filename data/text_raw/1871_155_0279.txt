@@ -15,7 +15,7 @@ Hannover kommand. v. Dresler u. Scharfenſtein, Pr. Lt. vom
 1. Mageburg. Inf. Regt. Nr 26, von ſeinem Kommdo. als Bureau⸗
 Chef und Bibliothekar bei der Kriegsſchule zu Erſurt entbunden.
 v. Brandenſtein, Pr. Lt. vom 6. Thüring. Inf. Regt. Nr. 95,
-als Bureau⸗Chef u. Biblicthek. zur Kriegsſchule in Erfurt kommand.
+als Bureau⸗Chef u. Bibliothek. zur Kriegsſchule in Erfurt kommand.
 v. Tſchiſchwitz, Hauptm. à la suite des 3. Brandenburg. Inf.
 Regts. Nr. 20 und kommdrt. als Militär⸗Lehrer beim Kadettenhauſe
 zu Culm, unter Belaſſung à la suite des gedachten Regts., als Comp.
@@ -136,7 +136,7 @@ Albrecht von Preußen), und Müller, Sec. Lt. a. D., zuletzt im
 6. Brandenburg. Inf. Regt. Nr. 52. Am 10. April: André, Ob.
 Lt. a. D., zuletzt Führer des 2. Aufg. des 2. Bats. (Soldin) jetzigen
 1. Brandb. Ldw. Rgts. Nr. 8. Am 11. April: v. Schwartzenau,
-Ob. Lt. a. D., zuletzt Maj. im vorm. 3. Bat. 3. Harde⸗Land. Regts.
+Ob. Lt. a. D., zuletzt Maj. im vorm. 3. Bat. 3. Garde⸗Land. Regts.
 Am 14. April: v. Dalwigk, Major a. D., zuletzt Hauptm. im
 jetzigen 2. Weſtfäl. Infanterie⸗Regiment Nr. 15 (Prinz Friedrich der
 Niederlande), und v. Natzmer, Prem. Lieut. a. D., zuletzt im
@@ -181,7 +181,7 @@ Rittm. a. D., zuletzt Pr. Lt. im 1. Bat. (Görlitz) jetzigen 1. Weſtpr.
 Landw. Regts. Nr. 6, und Dr. Maréchaux, Aſſiſt. Arzt a. D.,
 zuletzt in der 4. Art. Brig. Am 8. Juni: v. Prittwitz, General
 d. Inf. a. D., zuletzt Gen. Lt. u. kommdr. Gen. d. Garde⸗Korps.
-Am 10. Juni: Baron v. Puttkamer, Rittm. a. D., zuletzt heim
+Am 10. Juni: Baron v. Puttkamer, Rittm. a. D., zuletzt beim
 Train des 1 Bats. (Görlitz) jetzigen 1. Weſtpreuß. Landwehr⸗Regts.
 Nr. 6. Am 12. Juni: Haack, Pr. Lt. a. D., zuletzt Sec. Lt. im
 vorm. 2. Weſtpr. Inf. Regt. Am 20. Juni: Gneiſt, Hauptmann
@@ -269,11 +269,11 @@ resolved to conclude a Supplemental Convention, and have
 named as their Plenipotentiaries, that is to say: Her Majesty
 the Queen of the United Kingdom of Great Britain and Ire-
 land, Sir Edward Thornton, Knight Commander of the Most
-Honourable Order of the Bath. and Her Envoy Extraordinary
+Honourable Order of the Bath, and Her Envoy Extraordinary
 and Minister Plenipotentiary to the United States of America;
 and the President of the United States of America, Hamilton
 Fish, Secretary of State, who have agreed as follows:
-Art. Ⅰ. Any person being originally a citizen of the Uni-
+Art. I. Any person being originally a citizen of the Uni-
 ted States who had, previously to May 13, 1870, been natura-
 lized as a British subject, may at any time before August 10,
 1872, and any British subject who, at the date first aforesaid, had
@@ -297,7 +297,7 @@ State.
 Such renunciation, if declared by an original British sub-
 ject, of his acquired nationality as a citizen of the United
 States, shall, if the declarant be in the United Kingdom of
-Great Britain and lreland, be made in duplicate, in the pre-
+Great Britain and Ireland, be made in duplicate, in the pre-
 sence of a Justice of the Peace; if elsewhere in Her Britannic
 Majesty's dominions, in triplicate, in the presence of any
 Judge of civil or criminal jurisdiction, of any Justice of the
@@ -306,7 +306,7 @@ by law, in the place in which the declarant is, to administer
 an oath for any judicial or other legal purpose: if out of Her
 Majesty's dominions, in triplicate, in the presence of any offi-
 cer in the Diplomatic or Consular Service of Her Majesty.
-Art. IⅠ. The Contracting Parties hereby engage to com-
+Art. II. The Contracting Parties hereby engage to com-
 municate each to the other, from time to time, lists of the
 persons who, within their respective dominions and territories,
 or before their Diplomatic and Consular officers, have declared
@@ -338,7 +338,7 @@ that it is my desire to resume my nationality as a citizen of
 the United States (or British subject).
 (Signed) A. B.
 Made and subscribed before me, in
-(insert country or other subdivision, and state, province
+(insert country or other subdivision, and state, province,
 colony, legation, or consulate), this day of
 , 187.
 (Signed) E. F.,
