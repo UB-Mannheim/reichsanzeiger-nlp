@@ -13,7 +13,7 @@ This is work in progress. The goal is creating a NLP ground truth corpus based o
 * :white_check_mark: Create a tagset and annotation layer in [INCEpTION](https://inception-project.github.io) according to the annotation guidelines. See [inception/tagsets/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/inception/tagsets) and [inception/layers](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/inception/layers).
 * :hourglass_flowing_sand: Annotate plain text according to the annotation guidelines
 * :hourglass_flowing_sand: Export the annotations in INCEpTION formats (e.g., [UIMA CAS XMI](https://inception-project.github.io/releases/24.2/docs/user-guide.html#sect_formats_uimaxmi)). See [data/UIMA_CAS_XMI_v1.0/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/UIMA_CAS_XMI_v1.0).
-* :soon: Create a convertor from XMI to IOB format and convert XMI files into IOB files
+* :white_check_mark: Create a convertor from XMI to IOB format and convert XMI files into IOB files (created [cas2iob](https://github.com/UB-Mannheim/cas2iob))
 * :soon: Correct tokenization manually in IOB format
 * :soon: Train baseline models for NER/NEL
 
