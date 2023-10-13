@@ -4789,7 +4789,7 @@
     <type4:NamedEntity xmi:id="59961" sofa="1" begin="1395" end="1411" value="COMP.title"/>
     <type4:NamedEntity xmi:id="59955" sofa="1" begin="1412" end="1426" value="COMP.name"/>
     <type4:NamedEntity xmi:id="59967" sofa="1" begin="1467" end="1474" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q38"/>
-    <type4:NamedEntity xmi:id="59973" sofa="1" begin="1476" end="1505" identifier="http://www.wikidata.org/entity/Q1794241"/>
+    <type4:NamedEntity xmi:id="59973" sofa="1" begin="1476" end="1505" value="PER.ind" identifier="http://www.wikidata.org/entity/Q1794241"/>
     <type4:NamedEntity xmi:id="59991" sofa="1" begin="1476" end="1488" value="COMP.func"/>
     <type4:NamedEntity xmi:id="59985" sofa="1" begin="1489" end="1492" value="COMP.title"/>
     <type4:NamedEntity xmi:id="59979" sofa="1" begin="1493" end="1505" value="COMP.name"/>

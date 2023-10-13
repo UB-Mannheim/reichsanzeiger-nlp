@@ -2256,7 +2256,7 @@
     <type4:NamedEntity xmi:id="28110" sofa="1" begin="9861" end="9877" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69237212"/>
     <type4:NamedEntity xmi:id="28092" sofa="1" begin="9928" end="9935" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q2393"/>
     <type4:NamedEntity xmi:id="28098" sofa="1" begin="9979" end="9984" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q90"/>
-    <type4:NamedEntity xmi:id="27882" sofa="1" begin="10169" end="10183" identifier="http://www.wikidata.org/entity/Q550"/>
+    <type4:NamedEntity xmi:id="27882" sofa="1" begin="10169" end="10183" value="LOC.oro" identifier="http://www.wikidata.org/entity/Q550"/>
     <type4:NamedEntity xmi:id="27888" sofa="1" begin="10195" end="10231" value="LOC.fac" identifier="http://www.wikidata.org/entity/Q2059518"/>
     <type4:NamedEntity xmi:id="27894" sofa="1" begin="10240" end="10260" value="LOC.phys" identifier="http://www.wikidata.org/entity/Q818517"/>
     <type4:NamedEntity xmi:id="27900" sofa="1" begin="10371" end="10382" value="LOC.oro" identifier="http://www.wikidata.org/entity/Q1621256"/>

@@ -6364,7 +6364,7 @@
     <type4:NamedEntity xmi:id="79403" sofa="1" begin="7693" end="7716" value="ORG.ent"/>
     <type4:NamedEntity xmi:id="79409" sofa="1" begin="7748" end="7767" value="ORG.ent" identifier="http://www.wikidata.org/entity/Q652374"/>
     <type4:NamedEntity xmi:id="79415" sofa="1" begin="7774" end="7798" value="ORG.ent"/>
-    <type4:NamedEntity xmi:id="79421" sofa="1" begin="7805" end="7818"/>
+    <type4:NamedEntity xmi:id="79421" sofa="1" begin="7805" end="7818" value="ORG.ent"/>
     <type4:NamedEntity xmi:id="79427" sofa="1" begin="7852" end="7866" value="ORG.ent" identifier="http://www.wikidata.org/entity/Q1466588"/>
     <type4:NamedEntity xmi:id="79433" sofa="1" begin="7873" end="7885" value="ORG.ent" identifier="http://www.wikidata.org/entity/Q1389487"/>
     <type4:NamedEntity xmi:id="79439" sofa="1" begin="7927" end="7940" value="ORG.ent" identifier="http://www.wikidata.org/entity/Q872866"/>
@@ -6824,7 +6824,7 @@
     <type4:NamedEntity xmi:id="82193" sofa="1" begin="20900" end="20908" value="COMP.name"/>
     <type4:NamedEntity xmi:id="82211" sofa="1" begin="20910" end="20915" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2066"/>
     <type4:NamedEntity xmi:id="82217" sofa="1" begin="20917" end="20941" value="LOC.add"/>
-    <type4:NamedEntity xmi:id="82223" sofa="1" begin="20962" end="20995"/>
+    <type4:NamedEntity xmi:id="82223" sofa="1" begin="20962" end="20995" value="PER.ind"/>
     <type4:NamedEntity xmi:id="82235" sofa="1" begin="20962" end="20976" value="COMP.func"/>
     <type4:NamedEntity xmi:id="82229" sofa="1" begin="20977" end="20995" value="COMP.name"/>
     <type4:NamedEntity xmi:id="82241" sofa="1" begin="20999" end="21018" value="LOC.adm"/>
@@ -6841,7 +6841,7 @@
     <type4:NamedEntity xmi:id="82301" sofa="1" begin="21118" end="21131" value="COMP.name"/>
     <type4:NamedEntity xmi:id="82313" sofa="1" begin="21133" end="21141" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1797990"/>
     <type4:NamedEntity xmi:id="82319" sofa="1" begin="21143" end="21160" value="LOC.add"/>
-    <type4:NamedEntity xmi:id="82325" sofa="1" begin="21162" end="21193"/>
+    <type4:NamedEntity xmi:id="82325" sofa="1" begin="21162" end="21193" value="PER.ind"/>
     <type4:NamedEntity xmi:id="82337" sofa="1" begin="21162" end="21184" value="COMP.func"/>
     <type4:NamedEntity xmi:id="82331" sofa="1" begin="21185" end="21193" value="COMP.name"/>
     <type4:NamedEntity xmi:id="82343" sofa="1" begin="21207" end="21238" value="PER.ind"/>

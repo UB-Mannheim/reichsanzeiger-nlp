@@ -4058,7 +4058,7 @@
     <type4:NamedEntity xmi:id="49752" sofa="1" begin="16493" end="16518" value="PER.ind"/>
     <type4:NamedEntity xmi:id="49830" sofa="1" begin="16493" end="16501" value="COMP.func"/>
     <type4:NamedEntity xmi:id="49824" sofa="1" begin="16502" end="16518" value="COMP.name"/>
-    <type4:NamedEntity xmi:id="49746" sofa="1" begin="16522" end="16528" identifier="http://www.wikidata.org/entity/Q64"/>
+    <type4:NamedEntity xmi:id="49746" sofa="1" begin="16522" end="16528" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q64"/>
     <type4:NamedEntity xmi:id="49758" sofa="1" begin="16571" end="16587" value="ORG.ent"/>
     <type4:NamedEntity xmi:id="49764" sofa="1" begin="16703" end="16719" value="ORG.ent"/>
     <type4:NamedEntity xmi:id="49770" sofa="1" begin="16746" end="16771" value="PER.ind"/>
@@ -4081,8 +4081,8 @@
     <type4:NamedEntity xmi:id="49920" sofa="1" begin="17343" end="17352" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2112"/>
     <type4:NamedEntity xmi:id="49926" sofa="1" begin="17358" end="17375" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69241294"/>
     <type4:NamedEntity xmi:id="49932" sofa="1" begin="17403" end="17412" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2112"/>
-    <type4:NamedEntity xmi:id="49938" sofa="1" begin="17495" end="17512" identifier="http://www.wikidata.org/entity/Q69241297"/>
-    <type4:NamedEntity xmi:id="49944" sofa="1" begin="17596" end="17605" identifier="http://www.wikidata.org/entity/Q2112"/>
+    <type4:NamedEntity xmi:id="49938" sofa="1" begin="17495" end="17512" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69241297"/>
+    <type4:NamedEntity xmi:id="49944" sofa="1" begin="17596" end="17605" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2112"/>
     <type4:NamedEntity xmi:id="49950" sofa="1" begin="17623" end="17644" value="ORG.ent"/>
     <type4:NamedEntity xmi:id="49956" sofa="1" begin="17668" end="17677" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2112"/>
     <type4:NamedEntity xmi:id="49962" sofa="1" begin="17683" end="17700" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69241297"/>

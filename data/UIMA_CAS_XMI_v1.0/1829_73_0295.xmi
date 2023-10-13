@@ -3232,7 +3232,7 @@
     <type4:NamedEntity xmi:id="40270" sofa="1" begin="17076" end="17086" value="COMP.name"/>
     <type4:NamedEntity xmi:id="40276" sofa="1" begin="17096" end="17108" value="COMP.qualifier"/>
     <type4:NamedEntity xmi:id="40282" sofa="1" begin="17203" end="17211" value="PER.coll" identifier="http://www.wikidata.org/entity/Q1747419"/>
-    <type4:NamedEntity xmi:id="40288" sofa="1" begin="17269" end="17273" identifier="http://www.wikidata.org/entity/Q10660"/>
+    <type4:NamedEntity xmi:id="40288" sofa="1" begin="17269" end="17273" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q10660"/>
     <type4:NamedEntity xmi:id="40294" sofa="1" begin="17336" end="17349" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q2636"/>
     <type:LayerDefinition xmi:id="40360" name="de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity" uiName="Named entity"/>
     <type:FeatureDefinition xmi:id="40363" layer="40360" name="identifier" uiName="identifier"/>
