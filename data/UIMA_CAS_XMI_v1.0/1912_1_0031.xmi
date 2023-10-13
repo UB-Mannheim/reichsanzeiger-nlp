@@ -2973,7 +2973,7 @@
     <type4:NamedEntity xmi:id="36655" sofa="1" begin="14843" end="14848" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q17"/>
     <type4:NamedEntity xmi:id="36661" sofa="1" begin="14853" end="14858" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q18097"/>
     <type4:NamedEntity xmi:id="36673" sofa="1" begin="14860" end="14866" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q22502"/>
-    <type4:NamedEntity xmi:id="36667" sofa="1" begin="14868" end="14875" identifier="http://www.wikidata.org/entity/Q22502"/>
+    <type4:NamedEntity xmi:id="36667" sofa="1" begin="14868" end="14875" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q22502"/>
     <type4:NamedEntity xmi:id="36679" sofa="1" begin="14880" end="14888" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q696736"/>
     <type4:NamedEntity xmi:id="36685" sofa="1" begin="14890" end="14903" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q7792"/>
     <type4:NamedEntity xmi:id="36691" sofa="1" begin="14905" end="14910" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q34374"/>
