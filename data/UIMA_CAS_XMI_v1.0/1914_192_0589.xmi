@@ -6858,7 +6858,7 @@
     <type4:NamedEntity xmi:id="81171" sofa="1" begin="31775" end="31787" value="COMP.title"/>
     <type4:NamedEntity xmi:id="81165" sofa="1" begin="31789" end="31798" value="COMP.title"/>
     <type4:NamedEntity xmi:id="81159" sofa="1" begin="31799" end="31813" value="COMP.name"/>
-    <type4:NamedEntity xmi:id="81183" sofa="1" begin="31818" end="31827" identifier="http://www.wikidata.org/entity/Q1734876"/>
+    <type4:NamedEntity xmi:id="81183" sofa="1" begin="31818" end="31827" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1734876"/>
     <type4:NamedEntity xmi:id="81177" sofa="1" begin="31829" end="31846" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q17353542"/>
     <type4:NamedEntity xmi:id="81189" sofa="1" begin="31932" end="31957" value="PER.ind"/>
     <type4:NamedEntity xmi:id="81201" sofa="1" begin="31932" end="31940" value="COMP.title"/>
