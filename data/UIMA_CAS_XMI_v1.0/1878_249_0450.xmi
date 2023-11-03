@@ -6638,7 +6638,7 @@
     <type4:NamedEntity xmi:id="83426" sofa="1" begin="17553" end="17564" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q889"/>
     <type4:NamedEntity xmi:id="83432" sofa="1" begin="17631" end="17637" value="PER.ind" identifier="http://www.wikidata.org/entity/Q190"/>
     <type4:NamedEntity xmi:id="83438" sofa="1" begin="17676" end="17682" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q84"/>
-    <type4:NamedEntity xmi:id="83444" sofa="1" begin="17811" end="17821" identifier="http://www.wikidata.org/entity/Q142"/>
+    <type4:NamedEntity xmi:id="83444" sofa="1" begin="17811" end="17821" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q142"/>
     <type4:NamedEntity xmi:id="83450" sofa="1" begin="17823" end="17828" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q90"/>
     <type4:NamedEntity xmi:id="83456" sofa="1" begin="17830" end="17841" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q2960"/>
     <type4:NamedEntity xmi:id="83462" sofa="1" begin="17973" end="17978" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q25"/>
@@ -6819,7 +6819,7 @@
     <type4:NamedEntity xmi:id="84554" sofa="1" begin="32865" end="32877" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q49"/>
     <type4:NamedEntity xmi:id="84560" sofa="1" begin="32941" end="32964" value="PER.ind" identifier="http://www.wikidata.org/entity/Q79034"/>
     <type4:NamedEntity xmi:id="84566" sofa="1" begin="32984" end="32998" value="PER.ind"/>
-    <type4:NamedEntity xmi:id="84572" sofa="1" begin="33000" end="33010" identifier="http://www.wikidata.org/entity/Q301983"/>
+    <type4:NamedEntity xmi:id="84572" sofa="1" begin="33000" end="33010" value="PER.ind" identifier="http://www.wikidata.org/entity/Q301983"/>
     <type4:NamedEntity xmi:id="84578" sofa="1" begin="33012" end="33025" value="PER.ind" identifier="http://www.wikidata.org/entity/Q1648602"/>
     <type4:NamedEntity xmi:id="84584" sofa="1" begin="33027" end="33043" value="PER.ind"/>
     <type4:NamedEntity xmi:id="84590" sofa="1" begin="33045" end="33061" value="PER.ind" identifier="http://www.wikidata.org/entity/Q460952"/>
