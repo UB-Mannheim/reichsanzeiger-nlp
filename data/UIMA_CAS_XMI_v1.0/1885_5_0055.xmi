@@ -8005,7 +8005,7 @@
     <type4:NamedEntity xmi:id="97221" sofa="1" begin="36911" end="36930" value="LOC.adm"/>
     <type4:NamedEntity xmi:id="97227" sofa="1" begin="37280" end="37288" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1696329"/>
     <type4:NamedEntity xmi:id="97323" sofa="1" begin="37339" end="37349" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2214823"/>
-    <type4:NamedEntity xmi:id="97233" sofa="1" begin="37363" end="37378" identifier="http://www.wikidata.org/entity/Q69244563"/>
+    <type4:NamedEntity xmi:id="97233" sofa="1" begin="37363" end="37378" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69244563"/>
     <type4:NamedEntity xmi:id="97239" sofa="1" begin="37428" end="37438" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2214823"/>
     <type4:NamedEntity xmi:id="97245" sofa="1" begin="37980" end="37990" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q2214823"/>
     <type4:NamedEntity xmi:id="97251" sofa="1" begin="37996" end="38010" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69244541"/>
