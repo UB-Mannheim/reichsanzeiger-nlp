@@ -6824,7 +6824,7 @@
     <type4:NamedEntity xmi:id="83904" sofa="1" begin="16549" end="16567" value="PER.ind"/>
     <type4:NamedEntity xmi:id="83910" sofa="1" begin="16569" end="16580" value="LOC.adm"/>
     <type4:NamedEntity xmi:id="83916" sofa="1" begin="16585" end="16599" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q15428483"/>
-    <type4:NamedEntity xmi:id="83922" sofa="1" begin="16602" end="16612" identifier="http://www.wikidata.org/entity/Q1803453"/>
+    <type4:NamedEntity xmi:id="83922" sofa="1" begin="16602" end="16612" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1803453"/>
     <type4:NamedEntity xmi:id="83928" sofa="1" begin="16620" end="16629" value="PER.ind"/>
     <type4:NamedEntity xmi:id="83934" sofa="1" begin="16639" end="16674" value="PER.ind"/>
     <type4:NamedEntity xmi:id="83946" sofa="1" begin="16639" end="16657" value="COMP.func"/>
