@@ -5550,7 +5550,7 @@
     <type4:NamedEntity xmi:id="68251" sofa="1" begin="12677" end="12689" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69265987"/>
     <type4:NamedEntity xmi:id="68257" sofa="1" begin="12741" end="12765" value="LOC.add"/>
     <type4:NamedEntity xmi:id="68263" sofa="1" begin="12910" end="12919" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1733"/>
-    <type4:NamedEntity xmi:id="68269" sofa="1" begin="12925" end="12941" identifier="http://www.wikidata.org/entity/Q69265707"/>
+    <type4:NamedEntity xmi:id="68269" sofa="1" begin="12925" end="12941" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69265707"/>
     <type4:NamedEntity xmi:id="68275" sofa="1" begin="12997" end="13006" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69265607"/>
     <type4:NamedEntity xmi:id="68281" sofa="1" begin="13034" end="13059" value="ORG.ent" identifier="http://www.wikidata.org/entity/Q1466588"/>
     <type4:NamedEntity xmi:id="68287" sofa="1" begin="13060" end="13066" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1630"/>
