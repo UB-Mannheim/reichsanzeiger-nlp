@@ -1764,7 +1764,7 @@
     <type4:NamedEntity xmi:id="21331" sofa="1" begin="3629" end="3649" value="PER.ind"/>
     <type4:NamedEntity xmi:id="21343" sofa="1" begin="3629" end="3635" value="COMP.title"/>
     <type4:NamedEntity xmi:id="21337" sofa="1" begin="3636" end="3649" value="COMP.name"/>
-    <type4:NamedEntity xmi:id="21349" sofa="1" begin="3651" end="3657" identifier="http://www.wikidata.org/entity/Q64"/>
+    <type4:NamedEntity xmi:id="21349" sofa="1" begin="3651" end="3657" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q64"/>
     <type4:NamedEntity xmi:id="21355" sofa="1" begin="3663" end="3689" value="PER.ind"/>
     <type4:NamedEntity xmi:id="21367" sofa="1" begin="3663" end="3677" value="COMP.title"/>
     <type4:NamedEntity xmi:id="21361" sofa="1" begin="3678" end="3689" value="COMP.name"/>
