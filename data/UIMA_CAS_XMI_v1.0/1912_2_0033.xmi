@@ -4342,7 +4342,7 @@
     <type4:NamedEntity xmi:id="52263" sofa="1" begin="20989" end="21008" value="COMP.name"/>
     <type4:NamedEntity xmi:id="52269" sofa="1" begin="21048" end="21105" value="PROD.media" identifier="http://www.wikidata.org/entity/Q55259122"/>
     <type4:NamedEntity xmi:id="52275" sofa="1" begin="21128" end="21175" value="ORG.ent"/>
-    <type4:NamedEntity xmi:id="52281" sofa="1" begin="21177" end="21183" identifier="http://www.wikidata.org/entity/Q64"/>
+    <type4:NamedEntity xmi:id="52281" sofa="1" begin="21177" end="21183" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q64"/>
     <type4:NamedEntity xmi:id="52287" sofa="1" begin="21189" end="21203" value="LOC.add"/>
     <type4:NamedEntity xmi:id="52293" sofa="1" begin="21245" end="21254" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q155"/>
     <type4:NamedEntity xmi:id="52305" sofa="1" begin="21260" end="21265" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q4174"/>
