@@ -971,7 +971,7 @@
     <type4:NamedEntity xmi:id="11928" sofa="1" begin="3150" end="3154" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q7591"/>
     <type4:NamedEntity xmi:id="11904" sofa="1" begin="3281" end="3290" value="TIME.range"/>
     <type4:NamedEntity xmi:id="11958" sofa="1" begin="3326" end="3330" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q7647"/>
-    <type4:NamedEntity xmi:id="12012" sofa="1" begin="3441" end="3459"/>
+    <type4:NamedEntity xmi:id="12012" sofa="1" begin="3441" end="3459" value="ORG.ent"/>
     <type4:NamedEntity xmi:id="11868" sofa="1" begin="3485" end="3489" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1741"/>
     <type4:NamedEntity xmi:id="11964" sofa="1" begin="3563" end="3576" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69225593"/>
     <type4:NamedEntity xmi:id="11970" sofa="1" begin="3680" end="3684" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q7712"/>
