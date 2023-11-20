@@ -7573,7 +7573,7 @@
     <type4:NamedEntity xmi:id="96366" sofa="1" begin="10274" end="10283" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q2400"/>
     <type4:NamedEntity xmi:id="96372" sofa="1" begin="10503" end="10520" value="PER.ind" identifier="http://www.wikidata.org/entity/Q193656"/>
     <type4:NamedEntity xmi:id="96378" sofa="1" begin="10622" end="10641" value="PROD.media"/>
-    <type4:NamedEntity xmi:id="96384" sofa="1" begin="10744" end="10761" identifier="http://www.wikidata.org/entity/Q193656"/>
+    <type4:NamedEntity xmi:id="96384" sofa="1" begin="10744" end="10761" value="PER.ind" identifier="http://www.wikidata.org/entity/Q193656"/>
     <type4:NamedEntity xmi:id="96390" sofa="1" begin="10859" end="10867" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q60"/>
     <type4:NamedEntity xmi:id="96396" sofa="1" begin="10987" end="10997" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q61"/>
     <type4:NamedEntity xmi:id="96402" sofa="1" begin="11082" end="11101" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q30"/>
@@ -7607,10 +7607,10 @@
     <type4:NamedEntity xmi:id="96720" sofa="1" begin="13793" end="13801" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q159"/>
     <type4:NamedEntity xmi:id="96726" sofa="1" begin="13806" end="13818" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q40"/>
     <type4:NamedEntity xmi:id="96570" sofa="1" begin="13935" end="13946" value="PER.ind"/>
-    <type4:NamedEntity xmi:id="96558" sofa="1" begin="13981" end="13987" identifier="http://www.wikidata.org/entity/Q157324"/>
-    <type4:NamedEntity xmi:id="96564" sofa="1" begin="14094" end="14100" identifier="http://www.wikidata.org/entity/Q157324"/>
+    <type4:NamedEntity xmi:id="96558" sofa="1" begin="13981" end="13987" value="PER.ind" identifier="http://www.wikidata.org/entity/Q157324"/>
+    <type4:NamedEntity xmi:id="96564" sofa="1" begin="14094" end="14100" value="PER.ind" identifier="http://www.wikidata.org/entity/Q157324"/>
     <type4:NamedEntity xmi:id="96738" sofa="1" begin="14105" end="14124" value="PER.ind" identifier="http://www.wikidata.org/entity/Q45662"/>
-    <type4:NamedEntity xmi:id="96576" sofa="1" begin="14147" end="14153" identifier="http://www.wikidata.org/entity/Q157324"/>
+    <type4:NamedEntity xmi:id="96576" sofa="1" begin="14147" end="14153" value="PER.ind" identifier="http://www.wikidata.org/entity/Q157324"/>
     <type4:NamedEntity xmi:id="96582" sofa="1" begin="14206" end="14222" value="PER.ind"/>
     <type4:NamedEntity xmi:id="96588" sofa="1" begin="14269" end="14282" value="PER.ind"/>
     <type4:NamedEntity xmi:id="96594" sofa="1" begin="14339" end="14344" value="PROD.media"/>
@@ -7683,7 +7683,7 @@
     <type4:NamedEntity xmi:id="97638" sofa="1" begin="19730" end="19735" value="COMP.name"/>
     <type4:NamedEntity xmi:id="97020" sofa="1" begin="19787" end="19804" value="LOC.fac" identifier="http://www.wikidata.org/entity/Q42182"/>
     <type4:NamedEntity xmi:id="97026" sofa="1" begin="20137" end="20148" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q55"/>
-    <type4:NamedEntity xmi:id="97038" sofa="1" begin="20154" end="20162" identifier="http://www.wikidata.org/entity/Q36600"/>
+    <type4:NamedEntity xmi:id="97038" sofa="1" begin="20154" end="20162" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q36600"/>
     <type4:NamedEntity xmi:id="97032" sofa="1" begin="20164" end="20173" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q2417"/>
     <type4:NamedEntity xmi:id="97044" sofa="1" begin="20807" end="20812" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q3963"/>
     <type4:NamedEntity xmi:id="97050" sofa="1" begin="20814" end="20823" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q2404"/>

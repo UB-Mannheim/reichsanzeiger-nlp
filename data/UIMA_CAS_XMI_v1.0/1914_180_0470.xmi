@@ -4295,7 +4295,7 @@
     <type4:NamedEntity xmi:id="52014" sofa="1" begin="10071" end="10085" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1794"/>
     <type4:NamedEntity xmi:id="52020" sofa="1" begin="10091" end="10104" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69260138"/>
     <type4:NamedEntity xmi:id="52026" sofa="1" begin="10164" end="10178" value="LOC.adm" identifier="http://www.wikidata.org/entity/Q1803195"/>
-    <type4:NamedEntity xmi:id="52032" sofa="1" begin="10233" end="10249" identifier="http://www.wikidata.org/entity/Q69259746"/>
+    <type4:NamedEntity xmi:id="52032" sofa="1" begin="10233" end="10249" value="TIME.date.abs" identifier="http://www.wikidata.org/entity/Q69259746"/>
     <type4:NamedEntity xmi:id="52038" sofa="1" begin="10263" end="10293" value="PER.ind"/>
     <type4:NamedEntity xmi:id="52050" sofa="1" begin="10263" end="10278" value="COMP.func"/>
     <type4:NamedEntity xmi:id="52044" sofa="1" begin="10279" end="10293" value="COMP.name"/>
