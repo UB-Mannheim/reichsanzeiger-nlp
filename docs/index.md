@@ -475,7 +475,7 @@ governments of a country are annotated as ORG.adm
 
 ```Niederländische Regierung```
 ```xml
-<ORG.adm>niederländische Regierung<\ORG.adm>
+<ORG.adm>niederländische Regierung</ORG.adm>
  ```
 
 Museums: ORG.ent
@@ -488,13 +488,13 @@ Do we annotate royal courts as PER.coll or ORG.adm?
 
 ```Russischer Hof```
 ```xml
-<PER.coll>Russisch Kaiserlicher Hof <\PER.coll> 
+<PER.coll>Russisch Kaiserlicher Hof </PER.coll> 
  ```
 or
 
 ```Russischer Hof```
 ```xml
-<ORG.adm>Russisch Kaiserlicher Hof <\ORG.adm> 
+<ORG.adm>Russisch Kaiserlicher Hof </ORG.adm> 
  ```
 
 
