@@ -353,7 +353,6 @@ How to treat the following cases?
 
 How do we choose between these cases?
 * a person contains COMP.func with LOC.adm inside
-```Abbe Montesquiou```
 ```xml
 <PER.ind>
     <COMP.func>Abbe
