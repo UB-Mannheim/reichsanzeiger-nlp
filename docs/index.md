@@ -502,7 +502,9 @@ Russischer Hof
 
 names Preußischer Staatsanzeiger: https://www.wikidata.org/wiki/Q55257346 
 
-## References
+Ther are multiple names for the Reichanzeiger newspapaer (https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/).
+
+### References
 
 [1] Ehrmann, Watter, Romanello, & Clematide. (2019). Impresso Named Entity Annotation Guidelines (2.1). Zenodo. [https://doi.org/10.5281/zenodo.3585750](https://doi.org/10.5281/zenodo.3585750)
 
