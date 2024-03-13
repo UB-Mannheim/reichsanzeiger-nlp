@@ -129,7 +129,7 @@ TO DO: do we want to take this into account?
 
 #### Tricky cases for Person
 
-```Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych```
+Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych
 ```xml
 <PER.coll>
           <COMP.title>Prinzen</COMP.title>
@@ -143,7 +143,7 @@ TO DO: do we want to take this into account?
 
 The expressions containing title and demonym are annotated:
 
-```Großherzog von Baden```
+Großherzog von Baden
 ```xml
 <PER.ind>
     <COMP.title>Großherzog></COMP.title> 
@@ -171,7 +171,7 @@ The expressions containing title and demonym are annotated:
 
 #### Tricky cases for Organization
 
-```Blücherſchen Heere```
+Blücherſchen Heere
 ```xml
 <ORG.ent>
     <PER.ind>Blücherſchen></PER.ind> 
@@ -198,7 +198,7 @@ The expressions containing title and demonym are annotated:
 
 * Specifications (for ex. island, colony etc.) of locations are annotated as well
   
-```Kolonie Bourbon```
+Kolonie Bourbon
 ```xml
 <LOC.adm>Kolonie Bourbon</LOC.adm> 
 ```
@@ -211,7 +211,7 @@ TODO
 
 ### PERSON
 
-```Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen.```
+Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen.
 ```xml
 <PER.ind> 
     <COMP.title>Sr. hochfürſtlichen Durchl.</COMP.title> 
@@ -228,7 +228,7 @@ TODO
 </PER.ind>
 ```
 
-```Kaiſerlich Oeſterreichſche Kabinets⸗Kourier Vardioro.```
+Kaiſerlich Oeſterreichſche Kabinets⸗Kourier Vardioro.
 ```xml
 <PER.ind>
     <COMP.title>Kaiſerlich></COMP.title> 
@@ -238,7 +238,7 @@ TODO
 </PER.ind>
 ```
 
-```Prinzeßinen Töchtern, Amalie und Maria.```
+Prinzeßinen Töchtern, Amalie und Maria.
 ```xml
 <PER.coll>
     <COMP.title>Prinzeßinen</COMP.title>
@@ -249,7 +249,7 @@ TODO
 </PER.coll>
 ```
 
-```Kommandeurs des Ordens des Heiligen Geiſtes den Kardinal de la Luzerne, den Kardinal de Bausset, den Erzbiſchof von Bordeaux und den Abbe Montesquiou.```
+Kommandeurs des Ordens des Heiligen Geiſtes den Kardinal de la Luzerne, den Kardinal de Bausset, den Erzbiſchof von Bordeaux und den Abbe Montesquiou.
 ```xml
 <PER.coll>
     <COMP.func>Kommandeurs des
@@ -280,7 +280,7 @@ TODO
 </PER.coll>
 ```
 
-```Herzog und die Herzogin von Angouleme```
+Herzog und die Herzogin von Angouleme
 ```xml
 <PER.coll>
     <PER.ind>
@@ -294,7 +294,7 @@ TODO
 </PER.coll>
 ```
 
-```Frau von Lepel, geb. v. d. Lanken```
+Frau von Lepel, geb. v. d. Lanken
 ```xml
 <PER.ind> Frau von 
      <COMP.name> Lepel </COMP.name>
@@ -303,7 +303,7 @@ TODO
  </PER.ind>
 ```
 
-```Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe```
+Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe
 ```xml
 <PER.ind>
          <COMP.func>Staats⸗Sekretair</COMP.func>
@@ -317,7 +317,7 @@ TODO
 
 
 Nested entities with components are also annotated:
-```Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.```
+Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.
 ```xml
 <PER.ind>
     <COMP.title>Se. Exc. der General⸗Lieutenant</COMP.title>,
@@ -329,7 +329,7 @@ Nested entities with components are also annotated:
 </PER.ind>
 ```
 
-```Britiſche General⸗Konſul in Tripolis, Herr Warrington```
+Britiſche General⸗Konſul in Tripolis, Herr Warrington
 ```xml
 <PER.ind>
      <COMP.func>
@@ -436,7 +436,7 @@ Great Britain, when alone: https://www.wikidata.org/wiki/Q23666
 
 Berl n / Leipz g to Berlin / Leipzig 
 
-```Berlin Breitestaße No 20```
+Berlin Breitestaße No 20
 ```xml
 <loc.adm> Berlin </loc.adm>
 <loc.add> Breitestaße No 20 </loc.add> 
@@ -453,7 +453,7 @@ ancient cities: LOC.adm (e.g. Pompeii)
 
 military buildings are annotated as LOC.fac
 
-```Garnison Mühlberg```
+Garnison Mühlberg
 ```xml
 <LOC.fac> Garnison Mühlberg</LOC.fac>
 ```
@@ -461,7 +461,7 @@ military buildings are annotated as LOC.fac
 
 ### ORGANISATION
 
-```Pariser Bijoutier Odiot```
+Pariser Bijoutier Odiot
 ```xml
 <ORG.ent>
      <COMP.demonym>Pariser</COMP.demonym>
@@ -473,7 +473,7 @@ PER.ind not annotated
 
 governments of a country are annotated as ORG.adm
 
-```Niederländische Regierung```
+Niederländische Regierung
 ```xml
 <ORG.adm>niederländische Regierung</ORG.adm>
  ```
@@ -486,13 +486,13 @@ hospitals: ORG.ent
 
 Do we annotate royal courts as PER.coll or ORG.adm?
 
-```Russischer Hof```
+Russischer Hof
 ```xml
 <PER.coll>Russisch Kaiserlicher Hof </PER.coll> 
  ```
 or
 
-```Russischer Hof```
+Russischer Hof
 ```xml
 <ORG.adm>Russisch Kaiserlicher Hof </ORG.adm> 
  ```
