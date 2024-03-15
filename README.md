@@ -9,12 +9,12 @@ This is work in progress. The goal is creating a NLP ground truth corpus based o
 * :white_check_mark: Split plain text without line breaks & without hyphens into sentences & save it as one sentence per line TSV files [via [blatt to_tsv](https://github.com/UB-Mannheim/blatt)]. See [data/sentences_raw/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/sentences_raw).
 * :white_check_mark: Correct sentence splitting manually and remove "noisy data" (e.g., tables). See [data/sentences_checked/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/sentences_checked).
 * :white_check_mark: Import plain text (one sentence per line) to [INCEpTION](https://inception-project.github.io)
-* :hourglass_flowing_sand: Create the [annotation guidelines](https://ub-mannheim.github.io/reichsanzeiger-nlp)
+* :white_check_mark: Create the [annotation guidelines](https://ub-mannheim.github.io/reichsanzeiger-nlp)
 * :white_check_mark: Create a tagset and annotation layer in [INCEpTION](https://inception-project.github.io) according to the annotation guidelines. See [inception/tagsets/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/inception/tagsets) and [inception/layers](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/inception/layers).
-* :hourglass_flowing_sand: Annotate plain text according to the annotation guidelines
-* :hourglass_flowing_sand: Export the annotations in INCEpTION formats (e.g., [UIMA CAS XMI](https://inception-project.github.io/releases/24.2/docs/user-guide.html#sect_formats_uimaxmi)). See [data/UIMA_CAS_XMI_v1.0/](https://github.com/UB-Mannheim/reichsanzeiger-nlp/tree/main/data/UIMA_CAS_XMI_v1.0).
+* :white_check_mark: Annotate plain text according to the annotation guidelines
+* :white_check_mark: Export the annotations in INCEpTION formats (e.g., [UIMA CAS XMI](https://inception-project.github.io/releases/24.2/docs/user-guide.html#sect_formats_uimaxmi)). See `data/`.
 * :white_check_mark: Create a convertor from XMI to IOB format and convert XMI files into IOB files (created [cas2iob](https://github.com/UB-Mannheim/cas2iob))
-* :soon: Correct tokenization manually in IOB format
+* :hourglass_flowing_sand: Curate the annotations from two annotators
 * :soon: Train baseline models for NER/NEL
 
 ## Annotation Software: INCEpTION
