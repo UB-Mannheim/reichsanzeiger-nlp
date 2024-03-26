@@ -205,7 +205,14 @@ Kolonie Bourbon
 
 ## Entity linking
 
-TODO
+- entities are linked against Wikidata
+- nested entities are linked
+- All types of entities except for components and TIME.range are linked
+- LOC.adm: only linked to address if a Wikipedia article with the exact name of the address exists (in our dataset no such Wikipedia articles existed)
+- If the historical referent differs from the current referent (e.g., Reichsgaue Sudetenland) the historical Wikidata entry is linked. If there is no historical referent, the current Wikidata entry is linked.
+- different iterations of the same organisation (e.g., the Reichstag) are not linked to the specific iteration (e.g., 10. Reichstag) but the general wikidata entry ([Reichstag - Wikidata](https://www.wikidata.org/wiki/Q160208))
+- abbreviations are linked as well if they can be clearly attributed (e.g., SS)
+- in case of a metonymy (e.g., Gebrüder F. J. Badart in Firma Gebrüder F. J. Badart) the entity link is assigned according to the metonymic meaning of the mention (<ORG.ent> Firma Gebrüder F. J. Badart </ORG.ent>)
 
 ## Examples
 
