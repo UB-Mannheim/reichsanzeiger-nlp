@@ -183,8 +183,10 @@ Blücherſchen Heere
 
 #### Subtypes
 
-* LOC.: 
-* LOC.: 
+* LOC.adm: a territory with a geopolitical border (e.g., cities, countries & continents)
+* LOC.fac: named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation
+* LOC.oro: an oronym (e.g., are streets, squares, roads & highways)
+* LOC.phys: a physical location (e.g., mountains, rivers & planets)
 
 #### Coverage of the type Location
 
