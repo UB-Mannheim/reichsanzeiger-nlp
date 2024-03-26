@@ -191,11 +191,10 @@ Blücherſchen Heere
 #### Coverage of the type Location
 
 * Considered as Location:
-  * 
-  * 
-* Not considered as Location:
-  * 
-
+* Not considered as LOC.add:
+    * street names without a house number
+* Not considered as LOC.adm:
+    * regions without clear borders (e.g., Ostafrika)
 #### Tricky cases for Location
 
 * Specifications (for ex. island, colony etc.) of locations are annotated as well
