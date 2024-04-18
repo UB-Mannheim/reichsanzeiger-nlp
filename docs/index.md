@@ -426,7 +426,8 @@ Similar cases:
 ```xml
 <PER.ind>
     den
-    <COMP.func>Erzbiſchof von Bordeaux</COMP.func>
+    <COMP.func>Erzbiſchof </COMP.func>
+    <COMP.demonym>von Bordeaux</COMP.demonym>
 </PER.ind>
 ```
 
