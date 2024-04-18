@@ -66,6 +66,8 @@ Components categorize the elements inside a named entity. This is the second lev
 | COMP.qualifier | specifies a person in the form of a qualifying adjective |
 | COMP.demonym | the geographical origin of a person |
 
+Annotators shall annotate components only for named entities of type person.
+
 ### Nested entities and special constructions
 
 **Nested entities.** A nested entity is an entity nested in another entity or in entity component. There are no limits on nesting levels during annotation.
@@ -171,11 +173,13 @@ Großherzog von Baden
 
 #### Tricky cases for Organization
 
+* ORG or PER.coll
+
 Blücherſchen Heere
 ```xml
 <ORG.ent>
     <PER.ind>Blücherſchen></PER.ind> 
-    <COMP.func>Heere</COMP.func>
+    Heere
 </ORG.ent>
 ```
 
