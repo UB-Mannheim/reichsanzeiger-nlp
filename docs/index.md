@@ -305,13 +305,9 @@ Kommandeurs des Ordens des Heiligen Geiſtes den Kardinal de la Luzerne, den Kar
 Herzog und die Herzogin von Angouleme
 ```xml
 <PER.coll>
-    <PER.ind>
         <COMP.title>Herzog</COMP.title>
-    </PER.ind>
     und die 
-    <PER.ind>
         <COMP.title>Herzogin</COMP.title>
-    </PER.ind>
     <COMP.name>von Angouleme</COMP.name>
 </PER.coll>
 ```
