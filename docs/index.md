@@ -513,7 +513,7 @@ Garnison Mühlberg
 Pariser Bijoutier Odiot
 ```xml
 <ORG.ent>
-     <COMP.demonym>Pariser</COMP.demonym>
+     Pariser
      Bijoutier
      <PER.ind>Odiot</PER.ind>
  </ORG.ent> 
