@@ -345,7 +345,8 @@ Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter u
     <COMP.title>Se. Exc. der General⸗Lieutenant</COMP.title>,
     <COMP.func>diesſeitiger außerordentlicher Geſandter</COMP.func>
     und
-    <COMP.func>bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe</COMP.func>
+    <COMP.func>bevollmaͤchtigter Miniſter am
+       <PER.coll>Rußiſch Kaiſerlichen Hofe</PER.coll>
     <COMP.title>Freiherr</COMP.title>
     <COMP.name>von Schoͤler</COMP.name>
 </PER.ind>
