@@ -163,6 +163,20 @@ Se. Köngl. Hoheit der Herzog von Cumberland
 </PER.ind>
 ```
 
+Königl. Preußische Lieutentant im Garde-Uhlanen-Regimente, Graf Ratibor von Werßowitz zu Potsdam
+```xml
+<PER.ind>
+    <COMP.title>Königl. Preußische Lieutentant im
+        <ORG.ent>Garde-Uhlanen-Regimente </ORG.ent>
+    </COMP.title>
+    ,
+    <COMP.title>Graf</COMP.title>
+    <COMP.name>Ratibor</COMP.name>
+    <COMP.demonym>von Werßowitz</COMP.demonym>
+   <COMP.demonym>zu Potsdam</COMP.demonym>
+</PER.ind>
+```
+
 ### Organization (ORG)
 
 #### Subtypes
