@@ -153,6 +153,16 @@ Großherzog von Baden
 </PER.ind>
 ```
 
+Se. Köngl. Hoheit der Herzog von Cumberland
+```xml
+<PER.ind>
+    <COMP.title>Se. Köngl. Hoheit</COMP.title>
+    der
+    <COMP.title>Herzog</COMP.title>
+    <COMP.demonym>von Cumberland</COMP.demonym>
+</PER.ind>
+```
+
 ### Organization (ORG)
 
 #### Subtypes
