@@ -432,9 +432,10 @@ How to choose between COMP.demonym and LOC.adm?
 
 ### EVENT
 
-Schlacht an der Katzbach: specific and a Wikipedia page exists
+Schlacht an der Katzbach: specific (specific in space and time)
 
-Geburt des jungen Prinzen: not specific, no Wikipedia page
+Geburt des jungen Prinzen: not specific
+
 
 ### DATE
 
