@@ -24,7 +24,7 @@ These guidelines are aimed to support manual annotation of the [Reichsanzeiger](
 
 **Application context.** Our ultimate goal is to recognize and link the named entities from the historical newspaper Reichsanzeiger. It's roughly 500 thousands pages for years 1819-1945. 
 
-The main language of the newspapers is German. The tiny parts are written in French, English, Spanish and Portuguese.
+The main language of the newspapers is German. The tiny parts are written in French, English, Spanish, Latin and Portuguese.
 
 **Methodology.** These guidelines are created iteratively via:
 * Adapting the existing annotation guidelines [1-4] on historical German texts for NER/NEL tasks (mainly [1] based on the annotation guidelines for French texts [5]),
