@@ -177,6 +177,19 @@ Königl. Preußische Lieutentant im Garde-Uhlanen-Regimente, Graf Ratibor von We
 </PER.ind>
 ```
 
+ehemalige Gouverneur von Catalonien, Graf Espagne
+```xml
+<PER.ind>
+    <COMP.qualifier>ehemalige</COMP.qulifier>
+    <COMP.func>Gouverneur</COMP.func>
+    <COMP.demonym>von Catalonien</COMP.demonym>
+    ,
+    <COMP.title>Graf</COMP.title>
+    <COMP.name>Espagne</COMP.name>
+</PER.ind>
+```
+
+
 ### Organization (ORG)
 
 #### Subtypes
