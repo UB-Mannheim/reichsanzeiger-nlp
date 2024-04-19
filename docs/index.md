@@ -240,6 +240,7 @@ Blücherſchen Heere
  * considered LOC.fac:
     * specific buildings (e.g., Schloss Mannheim)
     * unspecific buildings (e.g., Haus)
+  
 #### Tricky cases for Location
 
 * Specifications (for ex. island, colony etc.) of locations are annotated as well
