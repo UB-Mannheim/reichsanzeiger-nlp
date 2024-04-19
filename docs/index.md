@@ -466,12 +466,15 @@ Geburt des jungen Prinzen: not specific
 
 ### DATE
 
-21ster d. Mts -> not specific -> not annotated
-
 Michaelis d. J. -> 29. September 
+
+Ein u. Zwanzigſten März 1836 -> annotated
+
+21ster d. Mts -> not specific -> not annotated
 
 Ende Dezember 1831: not specific -> not annotated
 Dezember 1831: specific -> annotated
+
 
 ### LOCATION
 
