@@ -104,6 +104,7 @@ TO DO: do we want to take this into account?
   * expressions without a proper name except expressions containing title and demonym (e.g., Großherzog von Baden)
   * demonyms which do not modify a proper name
   * isolated functions not attached to a person name
+  * abbreviation of names that are only one letter (e.g., A.)
 * Considered as Person.Collective:
   * more than one individual containing a proper name (e.g., )
   * royal courts (e.g., Kaiserlicher Russischer Hofstaat)
