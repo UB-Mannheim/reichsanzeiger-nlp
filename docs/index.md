@@ -237,6 +237,7 @@ Blücherſchen Heere
 * Not considered as LOC.adm:
     * regions without clear borders (e.g., Ostafrika, Ostindien)
     * if a location is written as an adjective (e.g., Spanisch)
+    * colonies that can not be attributed to a specific geographical location (e.g., Spaniſchen Kolonieen)
  * considered LOC.fac:
     * specific buildings (e.g., Schloss Mannheim)
     * unspecific buildings (e.g., Haus)
