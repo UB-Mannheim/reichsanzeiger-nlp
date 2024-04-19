@@ -235,7 +235,7 @@ Blücherſchen Heere
 * Not considered as LOC.add:
     * street names without a house number
 * Not considered as LOC.adm:
-    * regions without clear borders (e.g., Ostafrika)
+    * regions without clear borders (e.g., Ostafrika, Ostindien)
     * if a location is written as an adjective (e.g., Spanisch)
  * considered LOC.fac:
     * specific buildings (e.g., Schloss Mannheim)
