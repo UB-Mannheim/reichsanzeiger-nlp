@@ -242,7 +242,17 @@ Blücherſchen Heere
   
 Kolonie Bourbon
 ```xml
-<LOC.adm>Kolonie Bourbon</LOC.adm> 
+<LOC.adm>Kolonie Bourbon</LOC.adm>
+```
+
+Königsberg
+```xml
+<LOC.adm>Königsberg</LOC.adm>
+```
+
+Königsberg in Pr.
+```xml
+<LOC.adm>Königsberg in Pr.</LOC.adm>
 ```
 
 ## Entity linking
