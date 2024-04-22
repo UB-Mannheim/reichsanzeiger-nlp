@@ -493,7 +493,7 @@ Ein u. Zwanzigſten März 1836 -> annotated
 Ende Dezember 1831: not specific -> not annotated
 Dezember 1831: specific -> annotated
 
-#### Tricky cases for Person
+#### Tricky cases for DATE
 
 1. Juli 1837 bis Ende Dezember 1838
    
@@ -503,6 +503,11 @@ Dezember 1831: specific -> annotated
     bis
     <TIME.date>Ende Dezember 1838</TIME.date>
 </TIME.range>
+```
+
+```xml
+<TIME.date>Siebter November </TIME.date>
+
 ```
 
 ### LOCATION
