@@ -100,16 +100,19 @@ TO DO: do we want to take this into account?
   * imaginary characters and characters of literature pieces (e.g., Marthe Schwerdtlein)
   * religious figures (God)
   * titles if they can be distinctively attributed to one person for ex. via date (e.g., Se. Koͤnigl. Hoheit der Herzog von Cumberland)
+  * firm names that are the name of a person as well
 * Not considered as Person: (TO DO: decide on this keeping in mind the entity linking task)
-  * expressions without a proper name except expressions containing title and demonym (e.g., Großherzog von Baden)
+  * expressions without a proper name except expressions containing title and demonym or expressions that can be clearly attributed to one person via time (e.g., Großherzog von Baden, Kaiser der Franzosen)
   * demonyms which do not modify a proper name
   * isolated functions not attached to a person name
   * abbreviation of names that are only one letter (e.g., A.)
 * Considered as Person.Collective:
   * more than one individual containing a proper name (e.g., )
   * royal courts (e.g., Kaiserlicher Russischer Hofstaat)
+  * firms with several partners (e.g.,
 * Not considered as Person.Collective:
-  * citizens or residents of certain geographic areas (e.g., Löwenberger, Plagwitzer, die letzten Franzoſen)
+  * citizens or residents of certain geographic areas (e.g., Herren H.F. Fetschow & Sohn)
+  * Löwenberger, Plagwitzer, die letzten Franzoſen)
   * families if it is not clear which family members are included
 
 #### Person Components
@@ -122,6 +125,7 @@ TO DO: do we want to take this into account?
 * COMP.title (title or designator of a person):
   *  a civil or honorific prefix (e.g., Frau, Herr, Damen, Herren, Dlle. (demoiselle) Dr., Majestät, königliche Hoheit), military titles (e.g., General, Leutnant), nobility titles and royal titles (Fürstin, Gräfin, Herzog, Ritter, Junker)
   *  specifications of doctorates (e.g., Dr. jur., Dr. rer. nat.)
+  *  titles that are both civil and military titles (e.g., Kapitän)
 * COMP.qualifier (specifies a person in the form of a qualifying adjective):
   * any adjective qualifying the entity (e.g., sozialistische, senior, III.)
 * COMP.name (first, middle and last names as well as nickname and initials of a person):
@@ -216,6 +220,9 @@ ehemalige Gouverneur von Catalonien, Graf Espagne
   * restaraunts (annotate as ORG.ent)
   * military units (annotate as ORG.ent)
   * political parties (annotate as ORG.ent)
+  * firms (annotate as ORG.ent)
+  * parliaments (annotate as ORG.adm)
+  * courts of justice (annotate as ORG.adm)
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
 
@@ -229,6 +236,15 @@ Blücherſchen Heere
     <PER.ind>Blücherſchen></PER.ind> 
     Heere
 </ORG.ent>
+```
+
+```xml
+<PER.coll>
+      <COMP.title> Herren </COMP.title>
+      <ORG.ent>
+        <PER.ind>H.F. Fetschow </PER.ind>& Sohn
+      </ORG.ent>
+</PER.coll>
 ```
 
 ### Location (LOC)
@@ -275,13 +291,13 @@ Königsberg in Pr.
 ## Entity linking
 
 - entities are linked against Wikidata
-- nested entities are linked
+- nested entities are not linked
 - All types of entities except for components and TIME.range are linked
 - LOC.adm: only linked to address if a Wikipedia article with the exact name of the address exists (in our dataset no such Wikipedia articles existed)
 - If the historical referent differs from the current referent (e.g., Reichsgaue Sudetenland) the historical Wikidata entry is linked. If there is no historical referent, the current Wikidata entry is linked.
 - different iterations of the same organisation (e.g., the Reichstag) are not linked to the specific iteration (e.g., 10. Reichstag) but the general wikidata entry ([Reichstag - Wikidata](https://www.wikidata.org/wiki/Q160208))
 - abbreviations are linked as well if they can be clearly attributed (e.g., SS)
-- in case of a metonymy (e.g., Gebrüder F. J. Badart in Firma Gebrüder F. J. Badart) the entity link is assigned according to the metonymic meaning of the mention (<ORG.ent> Firma Gebrüder F. J. Badart </ORG.ent>)
+- in case of a metonymy of PER.coll, PER.ind and ORG.ent (e.g., Firma Gebrüder F. J. Badart -> both ORG.ent and PER.coll) the entities are not linked because distinction is too difficult 
 
 ## Examples
 
