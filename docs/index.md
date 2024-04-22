@@ -110,6 +110,7 @@ TO DO: do we want to take this into account?
   * royal courts (e.g., Kaiserlicher Russischer Hofstaat)
 * Not considered as Person.Collective:
   * citizens or residents of certain geographic areas (e.g., Löwenberger, Plagwitzer, die letzten Franzoſen)
+  * families if it is not clear which family members are included
 
 #### Person Components
 
