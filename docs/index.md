@@ -120,7 +120,7 @@ TO DO: do we want to take this into account?
   * social roles and status (e.g., Häftling)
   * a function always includes the organization, place or specialization attached to it [1]
 * COMP.title (title or designator of a person):
-  *  a civil or honorific prefix (e.g., Frau, Herr, Damen, Herren, Dr., Majestät, königliche Hoheit), military titles (e.g., General, Leutnant), nobility titles and royal titles (Fürstin, Gräfin, Herzog, Ritter, Junker)
+  *  a civil or honorific prefix (e.g., Frau, Herr, Damen, Herren, Dlle. (demoiselle) Dr., Majestät, königliche Hoheit), military titles (e.g., General, Leutnant), nobility titles and royal titles (Fürstin, Gräfin, Herzog, Ritter, Junker)
   *  specifications of doctorates (e.g., Dr. jur., Dr. rer. nat.)
 * COMP.qualifier (specifies a person in the form of a qualifying adjective):
   * any adjective qualifying the entity (e.g., sozialistische, senior, III.)
