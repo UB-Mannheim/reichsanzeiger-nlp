@@ -145,6 +145,15 @@ Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych
 </PER.coll>
 ```
 
+```xml
+<PER.coll>
+      <COMP.title> Herren </COMP.title>
+      <ORG.ent>
+        <PER.ind>H.F. Fetschow </PER.ind>& Sohn
+      </ORG.ent>
+</PER.coll>
+```
+
 The expressions containing title and demonym are annotated:
 
 Großherzog von Baden
