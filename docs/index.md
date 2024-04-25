@@ -221,7 +221,7 @@ ehemalige Gouverneur von Catalonien, Graf Espagne
   * military units (annotate as ORG.ent)
   * political parties (annotate as ORG.ent)
   * firms (annotate as ORG.ent)
-  * parliaments (annotate as ORG.adm)
+  * parliaments (annotate as ORG.adm, e.g., Reichstag, Unterhaus)
   * courts of justice (annotate as ORG.adm)
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
