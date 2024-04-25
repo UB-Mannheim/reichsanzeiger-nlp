@@ -291,7 +291,7 @@ Königsberg in Pr.
 ## Entity linking
 
 - entities are linked against Wikidata
-- nested entities are not linked
+- nested entities are linked unless the main entity is PER
 - All types of entities except for components and TIME.range are linked
 - LOC.adm: only linked to address if a Wikipedia article with the exact name of the address exists (in our dataset no such Wikipedia articles existed)
 - If the historical referent differs from the current referent (e.g., Reichsgaue Sudetenland) the historical Wikidata entry is linked. If there is no historical referent, the current Wikidata entry is linked.
