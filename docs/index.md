@@ -450,6 +450,7 @@ How do we choose between these cases?
     </COMP.func>
 </PER.ind>
 ```
+
 * a person contains COMP.func with COMP.demonym inside
 ```xml
 <PER.ind>
@@ -458,12 +459,14 @@ How do we choose between these cases?
     </COMP.func>
 </PER.ind>
 ```
+
 * a person contains COMP.func only
 ```xml
 <PER.ind>
     <COMP.func>Abbe Montesquiou</COMP.func>
 </PER.ind>
 ```
+
 * a person contains COMP.func and COMP.demonym
 ```xml
 <PER.ind>
@@ -471,6 +474,7 @@ How do we choose between these cases?
     <COMP.demonym>Montesquiou</COMP.demonym>
 </PER.ind>
 ```
+
 * a person contains COMP.func and LOC.adm
 ```xml
 <PER.ind>
@@ -532,7 +536,6 @@ Dezember 1831: specific -> annotated
 
 ```xml
 <TIME.date>Siebter November </TIME.date>
-
 ```
 
 ### LOCATION
