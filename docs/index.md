@@ -402,8 +402,6 @@ Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe
          <COMP.name> Frieſe</COMP.name>
 </PER.ind>
 ```
-
-
 Nested entities with components are also annotated:
 Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.
 ```xml
@@ -443,6 +441,7 @@ How to treat the following cases?
 
 How do we choose between these cases?
 * a person contains COMP.func with LOC.adm inside
+
 ```xml
 <PER.ind>
     <COMP.func>Abbe
@@ -452,6 +451,7 @@ How do we choose between these cases?
 ```
 
 * a person contains COMP.func with COMP.demonym inside
+
 ```xml
 <PER.ind>
     <COMP.func>Abbe
@@ -461,6 +461,7 @@ How do we choose between these cases?
 ```
 
 * a person contains COMP.func only
+
 ```xml
 <PER.ind>
     <COMP.func>Abbe Montesquiou</COMP.func>
@@ -468,6 +469,7 @@ How do we choose between these cases?
 ```
 
 * a person contains COMP.func and COMP.demonym
+
 ```xml
 <PER.ind>
     <COMP.func>Abbe</COMP.func>
@@ -476,6 +478,7 @@ How do we choose between these cases?
 ```
 
 * a person contains COMP.func and LOC.adm
+
 ```xml
 <PER.ind>
     <COMP.func>Abbe</COMP.func>
