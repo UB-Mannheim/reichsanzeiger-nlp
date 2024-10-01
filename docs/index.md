@@ -131,7 +131,7 @@ TO DO: do we want to take this into account?
   *  specifications of doctorates (e.g., Dr. jur., Dr. rer. nat.)
   *  titles that are both civil and military titles (e.g., Kapitän)
   *  certain adjectives if a title follows are added to COMP.tilte: ehemalig, früher, emeritiert, ausgeschiedener, Abbreviation “a. D.“
-  *  Functions (Wehrmann, Reservisten, Arbeitssoldat II. Klasse, Einjährig-Freiwilliger) within the military that are not titles are annotated as COMP.title as well 
+  *  Functions (Wehrmann, Reservisten, Arbeitssoldat II. Klasse, Einjährig-Freiwilliger) within the military that are not titles are annotated
 * COMP.qualifier (specifies a person in the form of a qualifying adjective):
   * any adjective qualifying the entity (e.g., sozialistische, senior, III., verantwortlich, verstorben)
 * COMP.name (first, middle and last names as well as nickname and initials of a person):
