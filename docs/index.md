@@ -120,19 +120,26 @@ TO DO: do we want to take this into account?
 * COMP.func (a function or job of a named person):
   * an occupation, profession or specialty (e.g., Zimmermann, Richter)
   * an administrative function in public or private area (e.g., Vorsitzender, Außenminister)
+  * titles of advising officials (Wirklicher Geheimer Rat, Landrat, Landrath a. D.) 
   * social roles and status (e.g., Häftling)
+  * tasks (command, directorate) that describe the function of a specific person
+  * roles (for ex. Pastor (both military and civilian), Archimandriten) within the church
+  * certain adjectives are added to COMP.func: ehemalig / früher / emeritiert/ ausgeschiedener/ geschäftsleitend/ verw. (abbreviation for verwitwet = widowed) 
   * a function always includes the organization, place or specialization attached to it [1]
 * COMP.title (title or designator of a person):
   *  a civil or honorific prefix (e.g., Frau, Herr, Damen, Herren, Dlle. (demoiselle) Dr., Majestät, königliche Hoheit), military titles (e.g., General, Leutnant), nobility titles and royal titles (Fürstin, Gräfin, Herzog, Ritter, Junker)
   *  specifications of doctorates (e.g., Dr. jur., Dr. rer. nat.)
   *  titles that are both civil and military titles (e.g., Kapitän)
+  *  certain adjectives if a title follows are added to COMP.tilte: ehemalig, früher, emeritiert, ausgeschiedener, Abbreviation “a. D.“
+  *  Functions (Wehrmann, Reservisten, Arbeitssoldat II. Klasse, Einjährig-Freiwilliger) within the military that are not titles are annotated as COMP.title as well 
 * COMP.qualifier (specifies a person in the form of a qualifying adjective):
-  * any adjective qualifying the entity (e.g., sozialistische, senior, III.)
+  * any adjective qualifying the entity (e.g., sozialistische, senior, III., verantwortlich, verstorben)
 * COMP.name (first, middle and last names as well as nickname and initials of a person):
   * covers first-, middle-, last- and nickname (e.g., Karl)
   * names of noble families if the name is not related to a location (e.g., von Humboldt)
 * COMP.demonym (the geographical origin of a person):
-  * a noun or adjective that identifies residents of a particular place (e.g., Bayerische)
+  * a noun or adjective that identifies residents of a particular place (e.g., Bayerische) 
+  * a preposition that identifies the origin of a person (in, aus, zu not in)
   * names of noble families if the name is related to a location (e.g., von Solms-Lych)
 
 #### Tricky cases for Person
