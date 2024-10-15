@@ -117,7 +117,7 @@ TO DO: do we want to take this into account?
   * members of an institution that frequently change (e.g., Reichstagsabgeordnete)
   * if something is both PER.coll and ORG.ent both entities are added
  
-#### specific heuristics
+#### specific heuristics for Person
 * Quartett + name (music) is annotated PER.coll (e.g.,Schwedisches National Damen Doppel Quartett)
   
 #### Person Components
@@ -127,7 +127,7 @@ TO DO: do we want to take this into account?
   * an administrative function in public or private area (e.g., Vorsitzender, Außenminister)
   * titles of advising officials (Wirklicher Geheimer Rat, Landrat, Landrath a. D.) 
   * social roles and status (e.g., Häftling)
-  * tasks (command, directorate) that describe the function of a specific person
+  * tasks (command, directorate) that describe the function of a specific person (e.g., Führung der 29. Kav. Brig., Höchstkommandirenden des X. Armee Corps, Direktion, Regie: Emil Hahn )
   * roles (for ex. Pastor (both military and civilian), Archimandriten) within the church
   * family relations (e.g.,Gemahlin / Ehefrau von …, siblings)
   * certain adjectives: ehemalig / früher / emeritiert/ ausgeschiedener/ geschäftsleitend/ verw. (abbreviation for verwitwet = widowed) 
@@ -147,6 +147,10 @@ TO DO: do we want to take this into account?
   * a noun or adjective that identifies residents of a particular place (e.g., Bayerische) 
   * a preposition that identifies the origin of a person (in, aus, zu not in)
   * names of noble families if the name is related to a location (e.g., von Solms-Lych)
+  * if locations are separable, they are annotated individually: see example
+  * if two locations are not separable, they are annotated together (e.g., Rahm⸗Reg.⸗Bez. Düſſeldorf)
+#### specific heuristics for Person Components
+* COMP.func: both civilian and military doctors are annotated as COMP.func
 
 #### Tricky cases for Person
 
@@ -409,7 +413,17 @@ Geſchwiſter Laura, Amalie und Giſela Neumann
      <COMP.name> Neumann</COMP.name>
 </PER.coll>
 ```
-
+Oberförſter Joly zu Rahm bei Großenbaum, Reg.⸗Bez. Düſſeldorf
+```xml
+<PER.ind>
+    <COMP.func>Oberförſter</COMP.func>
+    <COMP.name>Joly</COMP.name>
+    <COMP.demonym>zu Rahm</COMP.demonym>
+</PER.ind>
+bei
+<LOC.adm>Großenbaum</LOC.adm>,
+<LOC.adm>Reg.⸗Bez. Düſſeldorf</LOC.adm>
+```
 
 ####  questions for person (will be revised by lillian)
 
@@ -617,18 +631,25 @@ Russischer Hof
     * ancient cities (e.g. Pompeii)
     * Islands
  * considered LOC.fac:
-    * specific buildings: military buildings, theaters etc. (e.g., Schloss Mannheim, Theaters)
+    * specific buildings: military buildings, theaters etc. (e.g., Schloss Mannheim, Theaters, train stations)
+    * building that only exist once in a city (e.g., Stadt-Theater in Berlin) are annotated with the following city 
     * unspecific buildings (e.g., Haus)
  * considered LOC.phys:
-    * Gardens and parcs (e.g. Jardin des Tuileries)
- * Not considered as LOC.add:
-    * street names without a house number
+    * Gardens and (national)parcs (e.g. Jardin des Tuileries)
+    * specific river banks (e.g. rechtes Rhein Ufer)
+    * valleys (e.g.,Moselthal)
  * Not considered as LOC.adm:
     * regions without clear borders (e.g., Ostafrika, Ostindien)
     * if a location is written as an adjective (e.g., Spanisch)
     * colonies that can not be attributed to a specific geographical location (e.g., Spaniſchen Kolonieen)
- * Specifications (for ex. island, colony etc.) of locations are annotated as well
- * In case of locations that can't be clealy attributed to a city or another location because they are both a city and a location with the same name exist (for example: Samos -> is both city and island) no QID is assigned 
+ * Not considered as LOC.add:
+    * street names without a house number
+ * Not considered as LOC.fac:
+    * ports
+* Specifications (e.g., island, colony etc.) of locations are annotated as well
+* In case of locations that can't be clealy attributed to a city or another location because they are both a city and a location with the same name exist (for example: Samos -> is both city and island) no QID is assigned
+* if two locations are separable, they are annotated individually
+* if two locations are not separable, they are annotated together (e.g., Rahm⸗Reg.⸗Bez. Düſſeldorf)
 
 #### specific heuristics 
 * Ireland, when alone: https://www.wikidata.org/wiki/Q22890
@@ -638,7 +659,10 @@ Russischer Hof
 * Rio is not annotated as Rio de Janerio
 * Gefängnis is not annotated
 * Postanstalten are not annotated
-* 
+* LOC.fac: Embassies are annotated if it is clear where they are and in which country they originate
+* LOC.fac: Stadt-Theater in city x are annotated with the following city, Stadt-Theater without a city are annotated alone, same procedure with Church in city x and branches of banks (e.g., Reichsbankstelle in...)
+* Yellowstone / Big Horn → LOC.phys without identifier 
+
 #### Tricky cases for Location
   
 Kolonie Bourbon
@@ -667,13 +691,16 @@ Garnison Mühlberg
 ```
 ### EVENT
 * Schlacht an der Katzbach: specific (specific in space and time)
+* 2. Kongress der russischen Ärzte: specific
 * Geburt des jungen Prinzen: not specific
-
+  
 ### DATE
 * Ein u. Zwanzigſten März 1836 -> annotated
 * 21ster d. Mts -> not specific -> not annotated
 * Ende Dezember 1831: not specific -> not annotated
 * Dezember 1831: specific -> annotated
+* 1876/77: only 1876 -> annotated/ identifier added
+* 1. Juli 1837 bis Ende Dezember 1838: annotated as TIME.range and TIME.date.abs is added to individual dates
 
 #### specific heuristics 
 * Michaelis d. J. -> 29. September 
@@ -684,9 +711,9 @@ Garnison Mühlberg
    
 ```xml
 <TIME.range>
-    <TIME.date>1. Juli 1837</TIME.date>
+    <TIME.date.abs>1. Juli 1837</TIME.date.abs>
     bis
-    <TIME.date>Ende Dezember 1838</TIME.date>
+    <TIME.date.abs>Ende Dezember 1838</TIME.date.abs>
 </TIME.range>
 ```
 
@@ -695,6 +722,10 @@ Garnison Mühlberg
 names Preußischer Staatsanzeiger: https://www.wikidata.org/wiki/Q55257346 
 
 Ther are multiple names for the Reichanzeiger newspapaer (https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/).
+
+#### specific heuristics 
+* Bundes-Gesetzblatt is annotated as PROD.media
+
 ## Entity linking
 
 - entities are linked against Wikidata
