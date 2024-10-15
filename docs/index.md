@@ -99,11 +99,11 @@ TO DO: do we want to take this into account?
   * real person (e.g., Karl August von Hardenberg)
   * imaginary characters and characters of literature pieces (e.g., Marthe Schwerdtlein)
   * religious figures (God)
-  * titles if they can be distinctively attributed to one person for ex. via date (e.g., Se. Koͤnigl. Hoheit der Herzog von Cumberland)
+  * titles if they can be distinctively attributed to one person for ex. via date (e.g., Se. Koͤnigl. Hoheit der Herzog von Cumberland, Kaiser der Franzosen)
   * firm names that are the name of a person as well
 * Not considered as Person: (TO DO: decide on this keeping in mind the entity linking task)
   * expressions without a proper name except expressions containing title and demonym or expressions that can be clearly attributed to one person via time (e.g., Großherzog von Baden, Kaiser der Franzosen)
-  * demonyms which do not modify a proper name
+  * demonyms which do not modify a proper name (e.g., preußischer Staatsbürger)
   * isolated functions not attached to a person name
   * abbreviation of names that are only one letter (e.g., A.)
 * Considered as Person.Collective:
@@ -124,7 +124,8 @@ TO DO: do we want to take this into account?
   * social roles and status (e.g., Häftling)
   * tasks (command, directorate) that describe the function of a specific person
   * roles (for ex. Pastor (both military and civilian), Archimandriten) within the church
-  * certain adjectives are added to COMP.func: ehemalig / früher / emeritiert/ ausgeschiedener/ geschäftsleitend/ verw. (abbreviation for verwitwet = widowed) 
+  * family relations (e.g.,Gemahlin / Ehefrau von …, siblings)
+  * certain adjectives: ehemalig / früher / emeritiert/ ausgeschiedener/ geschäftsleitend/ verw. (abbreviation for verwitwet = widowed) 
   * a function always includes the organization, place or specialization attached to it [1]
 * COMP.title (title or designator of a person):
   *  a civil or honorific prefix (e.g., Frau, Herr, Damen, Herren, Dlle. (demoiselle) Dr., Majestät, königliche Hoheit), military titles (e.g., General, Leutnant), nobility titles and royal titles (Fürstin, Gräfin, Herzog, Ritter, Junker)
@@ -337,6 +338,74 @@ Britiſche General⸗Konſul in Tripolis, Herr Warrington
      <COMP.name>Warrington</COMP.name>
 </PER.ind>
 ```
+
+Nange sdorf, Sec. Lt. von demſ. Regt.
+```xml
+<PER.ind>
+ <COMP.name>Nange sdorf</COMP.name>,
+<COMP.title>Sec. Lt.</COMP.title>
+von demſ. Regt.
+</PER.ind>
+```
+
+Professor der Theologie an der Universität Würzburg, Dr. Stein 
+```xml
+<PER.ind>
+   <COMP.title>Professor der Theologie an der Universität Würzburg </COMP.title>,
+   <COMP.title>Dr.</COMP.title>
+   <COMP.name>Stein </COMP.name>
+</PER.ind>
+```
+Gemahlin des Geheimen Kommerzien-Raths Henschel zu Kassel
+```xml
+<PER.ind>
+     <COMP.func>Gemahlin</COMP.func>
+     des
+     <PER.ind>
+         <COMP.func>Geheimen Kommerzien-Raths</COMP.func>
+         <COMP.name>Henschel</COMP.name>
+         <COMP.demonym>zu Kassel</COMP.demonym>
+     </PER.ind>
+</PER.ind>
+```
+verehelichte Klempnermeister Jasch, Louise, geborne Berger, zu Nieder-Hermsdorf
+```xml
+<PER.ind>
+   <COMP.func>verehelichte
+       <PER.ind>
+          <COMP.func>Klempnermeister</COMP.func>
+          <COMP.name>Jasch</COMP.name>
+        </PER.ind>
+    </COMP.func>,
+    <COMP.name>Louise</COMP.name>,
+    geborne <COMP.name>Berger</COMP.name>,
+   <COMP.demonym>zu Nieder-Hermsdorf</COMP.demonym>
+</PER.ind>
+```
+
+könglich schwedischer Major Nyguist im Generalstabe 
+```xml
+<PER.ind>
+     <COMP.title>könglich schwedischer Major </COMP.title>
+     <COMP.name> Nyguist <COMP.name>
+</PER.ind>
+im Generalstabe
+```
+-> if Generalstabe were after title it would have been included in title
+
+Geſchwiſter Laura, Amalie und Giſela Neumann
+```xml
+<PER.coll>
+     <COMP.func>Geſchwiſter</COMP.func>
+     <PER.ind>Laura</PER.ind>,
+     <PER.ind>Amalie</PER.ind>
+     und
+     <PER.ind> Giſela</PER.ind>
+     <COMP.name> Neumann</COMP.name>
+</PER.coll>
+```
+
+
 ####  questions for person (will be revised by lillian)
 
 Page 13 in [1].
