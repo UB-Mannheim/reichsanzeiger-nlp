@@ -321,6 +321,7 @@ Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe
 </PER.ind>
 ```
 Nested entities with components are also annotated:
+
 Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.
 ```xml
 <PER.ind>
@@ -425,6 +426,44 @@ bei
 <LOC.adm>Reg.⸗Bez. Düſſeldorf</LOC.adm>
 ```
 
+Kaufleute G. Rosenthal
+```xml 
+<PER.coll>
+    <COMP.func> Kaufleute </COMP.func>
+    <ORG.ent><PER.ind> G. Rosenthal </PER.ind> & Co.</ORG.ent>
+</PER.coll>
+```
+Gebr. Jückstock
+```xml
+<PER.coll>
+   Gebr.
+   <COMP.name>Jückstock</COMP.name>
+</PER.coll>
+```
+Firma J. Tiſcher Nachfolger (Gebr. Gerich)
+```xml
+ <ORG.ent>Firma
+      <PER.ind>J. Tiſcher</PER.ind>
+</ORG.ent> Nachfolger
+(<PER.coll>Gebr. Gerich</PER.coll>)
+```
+Herren H.F. Fetschow & Sohn
+```xml
+<PER.coll>
+       <COMP.title> Herren </COMP.title>
+       <ORG.ent>
+            <PER.ind>H.F. Fetschow </PER.ind>
+       & Sohn</ORG.ent>
+</PER.coll>
+```
+
+Russischer Hof
+```xml
+<PER.coll>Russisch Kaiserlicher Hof </PER.coll> 
+ ```
+
+How to choose between COMP.demonym and LOC.adm?
+
 ####  questions for person (will be revised by lillian)
 
 Page 13 in [1].
@@ -445,7 +484,7 @@ How do we choose between these cases?
 </PER.ind>
 ```
 
-* a person contains COMP.func with COMP.demonym inside
+* a person contains COMP.func with COMP.demonym inside: 
 
 ```xml
 <PER.ind>
@@ -498,38 +537,6 @@ Similar cases:
     <COMP.demonym>von Bordeaux</COMP.demonym>
 </PER.ind>
 ```
-Kaufleute G. Rosenthal
-```xml 
-<PER.coll>
-    <COMP.func> Kaufleute </COMP.func>
-    <ORG.ent><PER.ind> G. Rosenthal </PER.ind> & Co.</ORG.ent>
-</PER.coll>
-```
-Gebr. Jückstock
-```xml
-<PER.coll>
-   Gebr.
-   <COMP.name>Jückstock</COMP.name>
-</PER.coll>
-```
-Firma J. Tiſcher Nachfolger (Gebr. Gerich)
-```xml
- <ORG.ent>Firma
-      <PER.ind>J. Tiſcher</PER.ind>
-</ORG.ent> Nachfolger
-(<PER.coll>Gebr. Gerich</PER.coll>)
-```
-Herren H.F. Fetschow & Sohn
-```xml
-<PER.coll>
-       <COMP.title> Herren </COMP.title>
-       <ORG.ent>
-            <PER.ind>H.F. Fetschow </PER.ind>
-       & Sohn</ORG.ent>
-</PER.coll>
-```
-How to choose between COMP.demonym and LOC.adm?
-
 ### Organization (ORG)
 
 #### Subtypes
@@ -546,17 +553,35 @@ How to choose between COMP.demonym and LOC.adm?
   * military units (annotate as ORG.ent)
   * political parties (annotate as ORG.ent)
   * firms (annotate as ORG.ent)
+  * hospitals (annotate as ORG.ent)
   * parliaments (annotate as ORG.adm, e.g., Reichstag, Unterhaus)
+  * governments if it is known what they govern (annotated as ORG.adm, e.g., französische Regierung, Regierung von Köln)  
+  * ministeries (annotated as ORG.adm)
+  * military authorities (Militärbehörde) (annotate as ORG.adm)
   * courts of justice (annotate as ORG.adm)
+  * public prosecution service (Staatsanwaltschaft) (annotate as ORG.adm)
+  * central banks (Zentralbank, Reichsbank) (annotate as ORG.adm)
+  * departments if the organization to which they belong is known (e.g., Militär-Medizinal-Abtheilung des Kriegsministeriums)
+  * former names of an organization are added (vorm.)
+  * organisations that are distinctive (exist only once) are annotated without the location
+  * a location is added to the annotation if it is part of the name (for ex. Königlichen Eiſenbahn⸗Direktion Berlin)
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
+  * departments if the organization to which they belong is unknown (e.g., Abtheilung des Innern)
+  * governments if it is unknown what they govern (annotated as ORG.adm, e.g., Kaiserliche Regierung, Regierung in/zu Cöln)  
  
 #### specific heurisitcs 
+* Bundesrat, Bern are seperately annotated
+* Königliche Regierungs-Hauptkasse, Königlichen Staatsschulden-Tilgungskasse etc. (annotate as ORG.adm)
+* mail system: 
+ * Postanstalten, Postämter are annotated as ORG.ent if they are specific (e.g., General-Postamt/ Reichspostamt)
+ * Postverwaltung is annotated as ORG.adm
+ * Post is annotated as ORG.ent
 * Not considered as Organization:
   * Köngl. Preußische Lotterie not annotated
   * Regierung in/zu Cöln not annotated
-* specific annotations:
-  * Bundesrat, Bern are seperately annotated
+ 
+
 
 #### Tricky cases for Organization
 
@@ -589,31 +614,27 @@ Pariser Bijoutier Odiot
 ```
 PER.ind not annotated
 
-governments of a country are annotated as ORG.adm
-
 Niederländische Regierung
 ```xml
 <ORG.adm>niederländische Regierung</ORG.adm>
  ```
 
-Museums: ORG.ent
-
-Königliche Regierungs-Hauptkasse, Königlichen Staatsschulden-Tilgungskasse etc.: ORG.adm
-
-hospitals: ORG.ent
-
-Do we annotate royal courts as PER.coll or ORG.adm?
-
-Russischer Hof
+Justizkommission des Reichstages 
 ```xml
-<PER.coll>Russisch Kaiserlicher Hof </PER.coll> 
- ```
-or
+<ORG.adm>Justizkommission des Reichstages</ORG.adm>
+```
 
-Russischer Hof
+Militär-Medizinal-Abtheilung des Kriegsministeriums 
 ```xml
-<ORG.adm>Russisch Kaiserlicher Hof </ORG.adm> 
- ```
+<ORG.adm> Militär-Medizinal-Abtheilung des
+      <ORG.adm> Kriegsministeriums </ORG.adm>
+</ORG.adm>
+```
+
+Königliches Handelsgericht-Sekretariat 
+```xml
+<ORG.adm>Königliches Handelsgericht-Sekretariat</ORG.adm> 
+```
 
 ### Location (LOC)
 
@@ -658,7 +679,6 @@ Russischer Hof
 * Berl n / Leipz g to Berlin / Leipzig
 * Rio is not annotated as Rio de Janerio
 * Gefängnis is not annotated
-* Postanstalten are not annotated
 * LOC.fac: Embassies are annotated if it is clear where they are and in which country they originate
 * LOC.fac: Stadt-Theater in city x are annotated with the following city, Stadt-Theater without a city are annotated alone, same procedure with Church in city x and branches of banks (e.g., Reichsbankstelle in...)
 * Yellowstone / Big Horn → LOC.phys without identifier 
