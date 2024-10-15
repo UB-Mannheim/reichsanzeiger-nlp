@@ -554,6 +554,13 @@ Similar cases:
   * political parties (annotate as ORG.ent)
   * firms (annotate as ORG.ent)
   * hospitals (annotate as ORG.ent)
+  * factories (annotated as ORG.ent, e.g.,  vereinigten rheinisch-westfälische Pulverfabriken, Conſolidirtes Braunkohlen⸗Bergwerk Marie bei Atzendorf)
+  * railways (annotated as ORG.ent, e.g., Kerkerbachbahn)
+  * press agencies (annotate as ORG.ent, e.g., W.T.B.)
+  * exchanges (annotate as ORG.ent but not linked, e.g., Berliner Börse)
+  * chamber of commerce (annotate as ORG.ent)
+  * armies of a country (annotate as ORG.ent, e.g., Preußische Armee)
+  * if something is both PER.coll and ORG.ent both entities are added
   * parliaments (annotate as ORG.adm, e.g., Reichstag, Unterhaus)
   * governments if it is known what they govern (annotated as ORG.adm, e.g., französische Regierung, Regierung von Köln)  
   * ministeries (annotated as ORG.adm)
@@ -573,6 +580,9 @@ Similar cases:
 #### specific heurisitcs 
 * Bundesrat, Bern are seperately annotated
 * Königliche Regierungs-Hauptkasse, Königlichen Staatsschulden-Tilgungskasse etc. (annotate as ORG.adm)
+* banks that are named after a person (anntoate as ORG.ent & PER.ind or PER.coll)
+* Reserve (milit.) (annotate as ORG.ent)
+* other organisations: Police, roman church, schools, international committees, orphanages are annotated as well 
 * mail system: 
  * Postanstalten, Postämter are annotated as ORG.ent if they are specific (e.g., General-Postamt/ Reichspostamt)
  * Postverwaltung is annotated as ORG.adm
@@ -580,13 +590,9 @@ Similar cases:
 * Not considered as Organization:
   * Köngl. Preußische Lotterie not annotated
   * Regierung in/zu Cöln not annotated
- 
 
 
 #### Tricky cases for Organization
-
-* ORG or PER.coll
-
 Blücherſchen Heere
 ```xml
 <ORG.ent>
@@ -636,6 +642,35 @@ Königliches Handelsgericht-Sekretariat
 <ORG.adm>Königliches Handelsgericht-Sekretariat</ORG.adm> 
 ```
 
+Firma: Philipp Cullmann
+```xml
+<ORG.ent> Firma:
+   <PER.ind> Philipp Cullmann </PER.ind>
+</ORG.ent>
+```
+Lehranſtalt der Jeſuiten in Sikawei
+```xml
+<ORG.ent>Lehranſtalt der Jeſuiten in Sikawei</ORG.ent>
+```
+
+Hôtel Zulaſt in Mülheim a. d. Ruhr
+```xml
+<ORG.ent>Hôtel Zulaſt</ORG.ent> in Mülheim a. d. Ruhr
+```
+
+Firma J. Tiſcher Nachfolger Gebr. Gerich
+```xml
+ <ORG.ent>Firma
+     <PER.ind>J. Tiſcher</PER.ind>
+</ORG.ent> Nachfolger
+(<PER.coll>Gebr. Gerich</PER.coll>)
+```
+Actien-Gesellschaft für Eisen-Industrie und Brückenbau vorm. J. C. Harkort
+```xml
+<ORG.ent>Actien-Gesellschaft für Eisen-Industrie und Brückenbau vorm.    
+     <PER.ind>J. C. Harkort</PER.ind>
+</ORG.ent>
+```
 ### Location (LOC)
 
 #### Subtypes
@@ -756,6 +791,7 @@ Ther are multiple names for the Reichanzeiger newspapaer (https://digi.bib.uni-m
 - different iterations of the same organisation (e.g., the Reichstag) are not linked to the specific iteration (e.g., 10. Reichstag) but the general wikidata entry ([Reichstag - Wikidata](https://www.wikidata.org/wiki/Q160208))
 - abbreviations are linked as well if they can be clearly attributed (e.g., SS)
 - in case of a metonymy of PER.coll, PER.ind and ORG.ent (e.g., Firma Gebrüder F. J. Badart -> both ORG.ent and PER.coll) the entities are not linked because distinction is too difficult
+- parties with generic names (e.g., liberale Partei) are not linked
   
 ### References
 
