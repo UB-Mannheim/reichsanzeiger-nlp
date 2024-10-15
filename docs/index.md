@@ -135,7 +135,8 @@ TO DO: do we want to take this into account?
 * COMP.title (title or designator of a person):
   *  a civil or honorific prefix (e.g., Frau, Herr, Damen, Herren, Dlle. (demoiselle) Dr., Majestät, königliche Hoheit), military titles (e.g., General, Leutnant), nobility titles and royal titles (Fürstin, Gräfin, Herzog, Ritter, Junker)
   *  specifications of doctorates (e.g., Dr. jur., Dr. rer. nat.)
-  *  titles that are both civil and military titles (e.g., Kapitän)
+  *  titles that a
+  *  re both civil and military titles (e.g., Kapitän)
   *  certain adjectives if a title follows are added to COMP.tilte: ehemalig, früher, emeritiert, ausgeschiedener, Abbreviation “a. D.“
   *  Functions (Wehrmann, Reservisten, Arbeitssoldat II. Klasse, Einjährig-Freiwilliger) within the military that are not titles are annotated
 * COMP.qualifier (specifies a person in the form of a qualifying adjective):
@@ -686,6 +687,10 @@ Actien-Gesellschaft für Eisen-Industrie und Brückenbau vorm. J. C. Harkort
 * Considered as LOC.adm:
     * ancient cities (e.g. Pompeii)
     * Islands
+    * administrative areas of the church (e.g., Diözese)
+    * if a state is named with the city (e.g., Königsberg (Ostpr.)) both are annotated individually
+    * the discription of the administrative region (e.g., Gemeinde, Kreise) is included in the annotation
+    * if a river is named with the city (e.g., Ludwigshafen, Rhein) the river is included in annotation
  * considered LOC.fac:
     * specific buildings: military buildings, theaters etc. (e.g., Schloss Mannheim, Theaters, train stations)
     * building that only exist once in a city (e.g., Stadt-Theater in Berlin) are annotated with the following city 
@@ -716,8 +721,16 @@ Actien-Gesellschaft für Eisen-Industrie und Brückenbau vorm. J. C. Harkort
 * Gefängnis is not annotated
 * LOC.fac: Embassies are annotated if it is clear where they are and in which country they originate
 * LOC.fac: Stadt-Theater in city x are annotated with the following city, Stadt-Theater without a city are annotated alone, same procedure with Church in city x and branches of banks (e.g., Reichsbankstelle in...)
-* Yellowstone / Big Horn → LOC.phys without identifier 
-
+* Yellowstone / Big Horn: LOC.phys without identifier
+* West indies is a Danish Colony in the Caribbean: annotated
+* Westaustralien is a state in Australia: annotated
+* Windsor is annotated as LOC.adm
+* El Salvador is annotated as LOC.adm
+* Vereinigte Staaten von Nordamerika, Etats Unis (franz. Name) is annotated as USA
+* Vereinigte Staaten are not annoted
+* Goldküste is annotated as LOC.adm
+* Rio is not annotated as Rio de Janerio
+  
 #### Tricky cases for Location
   
 Kolonie Bourbon
@@ -792,6 +805,22 @@ Ther are multiple names for the Reichanzeiger newspapaer (https://digi.bib.uni-m
 - abbreviations are linked as well if they can be clearly attributed (e.g., SS)
 - in case of a metonymy of PER.coll, PER.ind and ORG.ent (e.g., Firma Gebrüder F. J. Badart -> both ORG.ent and PER.coll) the entities are not linked because distinction is too difficult
 - parties with generic names (e.g., liberale Partei) are not linked
+- if a LOC.adm is both city and district we use the identifier of the city unless it is known that the district is meant
+- for lists of administrative areas (e.g., Regierungsbezirken Arnsberg, Düsseldorf, Potsdam, Hamburg) the identifier of the administrative area in the beginning (e.g., Regierungsbezirk) is used
+
+#### specific heuristics 
+- argentinische Republik is linked
+- Senegambien linked as British Senegambien
+- Puerto Rico is not linked
+- Tokio before 1889 is not linked
+- Tokio after 1889 is linked as [Tokio - wikidata] (https://www.wikidata.org/wiki/Q1207735)
+- Römisches Reich is linked as [Ancient Rome - Wikidata](https://www.wikidata.org/wiki/Q1747689)
+- Malta is linked as [Island of Malta - Wikidata] (https://www.wikidata.org/wiki/Q193896)
+- Württemberg from 1806 to 1918:  [Kingdom of Württemberg - Wikidata](https://www.wikidata.org/wiki/Q159631)
+- Nordamerika → Kontinent is linked as [Nordamerika - Wikidata] (https://www.wikidata.org/wiki/Q49)
+- Goldküste is annotated because its a LOC.adm but no identifier because its not clear which LOC.adm is meant
+- Cordoba is not linked
+
   
 ### References
 
