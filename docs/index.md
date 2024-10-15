@@ -77,13 +77,12 @@ Annotators shall annotate components only for named entities of type person.
 ### Ambiguities
 
 **Unsolvable entity type ambiguities.**
-
-TO DO: do we want to take this into account?
-
+* Despite our efforts to annotate ambiguous entity types (e.g., firms named after individuals as both PER.ind and ORG.adm), we found that consistent resolution was not always feasible.
+  
 **Metonymy.**
 
-TO DO: do we want to take this into account?
-
+* Metonymy was explored as a potential linguistic phenomenon in our analysis, but we ultimately found it to be of limited relevance to the specific entities present in our dataset.
+  
 ## Entities
 
 ### Person (PER)
