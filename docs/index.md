@@ -114,7 +114,12 @@ TO DO: do we want to take this into account?
   * citizens or residents of certain geographic areas (e.g., Herren H.F. Fetschow & Sohn)
   * Löwenberger, Plagwitzer, die letzten Franzoſen)
   * families if it is not clear which family members are included
-
+  * members of an institution that frequently change (e.g., Reichstagsabgeordnete)
+  * if something is both PER.coll and ORG.ent both entities are added
+ 
+#### specific heuristics
+* Quartett + name (music) is annotated PER.coll (e.g.,Schwedisches National Damen Doppel Quartett)
+  
 #### Person Components
 
 * COMP.func (a function or job of a named person):
@@ -479,7 +484,36 @@ Similar cases:
     <COMP.demonym>von Bordeaux</COMP.demonym>
 </PER.ind>
 ```
-
+Kaufleute G. Rosenthal
+```xml 
+<PER.coll>
+    <COMP.func> Kaufleute </COMP.func>
+    <ORG.ent><PER.ind> G. Rosenthal </PER.ind> & Co.</ORG.ent>
+</PER.coll>
+```
+Gebr. Jückstock
+```xml
+<PER.coll>
+   Gebr.
+   <COMP.name>Jückstock</COMP.name>
+</PER.coll>
+```
+Firma J. Tiſcher Nachfolger (Gebr. Gerich)
+```xml
+ <ORG.ent>Firma
+      <PER.ind>J. Tiſcher</PER.ind>
+</ORG.ent> Nachfolger
+(<PER.coll>Gebr. Gerich</PER.coll>)
+```
+Herren H.F. Fetschow & Sohn
+```xml
+<PER.coll>
+       <COMP.title> Herren </COMP.title>
+       <ORG.ent>
+            <PER.ind>H.F. Fetschow </PER.ind>
+       & Sohn</ORG.ent>
+</PER.coll>
+```
 How to choose between COMP.demonym and LOC.adm?
 
 ### Organization (ORG)
