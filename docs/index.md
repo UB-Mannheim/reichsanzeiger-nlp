@@ -433,6 +433,13 @@ How to choose between COMP.demonym and LOC.adm?
   * courts of justice (annotate as ORG.adm)
 * Not considered as Organization:
   * theaters (annotate it as LOC.fac)
+ 
+#### specific heurisitcs 
+* Not considered as Organization:
+  * Köngl. Preußische Lotterie not annotated
+  * Regierung in/zu Cöln not annotated
+* specific annotations:
+  * Bundesrat, Bern are seperately annotated
 
 #### Tricky cases for Organization
 
@@ -525,7 +532,10 @@ Russischer Hof
 * Great Britain and Ireland, together (1801- 1927): https://www.wikidata.org/wiki/Q174193
 * Great Britain, when alone: https://www.wikidata.org/wiki/Q23666
 * Berl n / Leipz g to Berlin / Leipzig
-  
+* Rio is not annotated as Rio de Janerio
+* Gefängnis is not annotated
+* Postanstalten are not annotated
+* 
 #### Tricky cases for Location
   
 Kolonie Bourbon
