@@ -578,7 +578,7 @@ Similar cases:
   * departments if the organization to which they belong is unknown (e.g., Abtheilung des Innern)
   * governments if it is unknown what they govern (annotated as ORG.adm, e.g., Kaiserliche Regierung, Regierung in/zu Cöln)  
  
-#### specific heurisitcs 
+#### specific heuristics 
 * Bundesrat, Bern are seperately annotated
 * Königliche Regierungs-Hauptkasse, Königlichen Staatsschulden-Tilgungskasse etc. (annotate as ORG.adm)
 * banks that are named after a person (anntoate as ORG.ent & PER.ind or PER.coll)
@@ -813,11 +813,11 @@ Ther are multiple names for the Reichanzeiger newspapaer (https://digi.bib.uni-m
 - Senegambien linked as British Senegambien
 - Puerto Rico is not linked
 - Tokio before 1889 is not linked
-- Tokio after 1889 is linked as [Tokio - wikidata] (https://www.wikidata.org/wiki/Q1207735)
+- Tokio after 1889 is linked as [Tokio - Wikidata](https://www.wikidata.org/wiki/Q1207735)
 - Römisches Reich is linked as [Ancient Rome - Wikidata](https://www.wikidata.org/wiki/Q1747689)
-- Malta is linked as [Island of Malta - Wikidata] (https://www.wikidata.org/wiki/Q193896)
+- Malta is linked as [Island of Malta - Wikidata](https://www.wikidata.org/wiki/Q193896)
 - Württemberg from 1806 to 1918:  [Kingdom of Württemberg - Wikidata](https://www.wikidata.org/wiki/Q159631)
-- Nordamerika → Kontinent is linked as [Nordamerika - Wikidata] (https://www.wikidata.org/wiki/Q49)
+- Nordamerika → Kontinent is linked as [Nordamerika - Wikidata](https://www.wikidata.org/wiki/Q49)
 - Goldküste is annotated because its a LOC.adm but no identifier because its not clear which LOC.adm is meant
 - Cordoba is not linked
 
