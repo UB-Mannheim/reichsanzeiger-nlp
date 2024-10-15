@@ -212,104 +212,6 @@ ehemalige Gouverneur von Catalonien, Graf Espagne
 ```
 
 
-### Organization (ORG)
-
-#### Subtypes
-
-* ORG.adm: an organisation which plays a mainly administrative role.
-* ORG.ent: an organisation which doesn’t play a mainly administrative role
-
-#### Coverage of the type Organization
-
-* Considered as Organization:
-  * registered organizations
-  * museums, institutes, universities, libraries (annotate as ORG.ent)
-  * restaraunts (annotate as ORG.ent)
-  * military units (annotate as ORG.ent)
-  * political parties (annotate as ORG.ent)
-  * firms (annotate as ORG.ent)
-  * parliaments (annotate as ORG.adm, e.g., Reichstag, Unterhaus)
-  * courts of justice (annotate as ORG.adm)
-* Not considered as Organization:
-  * theaters (annotate it as LOC.fac)
-
-#### Tricky cases for Organization
-
-* ORG or PER.coll
-
-Blücherſchen Heere
-```xml
-<ORG.ent>
-    <PER.ind>Blücherſchen></PER.ind> 
-    Heere
-</ORG.ent>
-```
-
-```xml
-<PER.coll>
-      <COMP.title> Herren </COMP.title>
-      <ORG.ent>
-        <PER.ind>H.F. Fetschow </PER.ind>& Sohn
-      </ORG.ent>
-</PER.coll>
-```
-
-### Location (LOC)
-
-#### Subtypes
-
-* LOC.adm: a territory with a geopolitical border (e.g., cities, countries & continents)
-* LOC.fac: named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation
-* LOC.oro: an oronym (e.g., are streets, squares, roads & highways)
-* LOC.phys: a physical location (e.g., mountains, rivers & planets)
-
-#### Coverage of the type Location
-
-* Considered as Location:
-* Not considered as LOC.add:
-    * street names without a house number
-* Not considered as LOC.adm:
-    * regions without clear borders (e.g., Ostafrika, Ostindien)
-    * if a location is written as an adjective (e.g., Spanisch)
-    * colonies that can not be attributed to a specific geographical location (e.g., Spaniſchen Kolonieen)
- * considered LOC.fac:
-    * specific buildings (e.g., Schloss Mannheim)
-    * unspecific buildings (e.g., Haus)
-  
-#### Tricky cases for Location
-
-* Specifications (for ex. island, colony etc.) of locations are annotated as well
-  
-Kolonie Bourbon
-```xml
-<LOC.adm>Kolonie Bourbon</LOC.adm>
-```
-
-Königsberg
-```xml
-<LOC.adm>Königsberg</LOC.adm>
-```
-
-Königsberg in Pr.
-```xml
-<LOC.adm>Königsberg in Pr.</LOC.adm>
-```
-
-## Entity linking
-
-- entities are linked against Wikidata
-- nested entities are linked unless the main entity is PER.ind
-- All types of entities except for components and TIME.range are linked
-- LOC.adm: only linked to address if a Wikipedia article with the exact name of the address exists (in our dataset no such Wikipedia articles existed)
-- If the historical referent differs from the current referent (e.g., Reichsgaue Sudetenland) the historical Wikidata entry is linked. If there is no historical referent, the current Wikidata entry is linked.
-- different iterations of the same organisation (e.g., the Reichstag) are not linked to the specific iteration (e.g., 10. Reichstag) but the general wikidata entry ([Reichstag - Wikidata](https://www.wikidata.org/wiki/Q160208))
-- abbreviations are linked as well if they can be clearly attributed (e.g., SS)
-- in case of a metonymy of PER.coll, PER.ind and ORG.ent (e.g., Firma Gebrüder F. J. Badart -> both ORG.ent and PER.coll) the entities are not linked because distinction is too difficult 
-
-## Examples
-
-### PERSON
-
 Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen.
 ```xml
 <PER.ind> 
@@ -436,8 +338,7 @@ Britiſche General⸗Konſul in Tripolis, Herr Warrington
      <COMP.name>Warrington</COMP.name>
 </PER.ind>
 ```
-
-####  tricky cases for person
+####  questions for person (will be revised by lillian)
 
 Page 13 in [1].
 
@@ -513,6 +414,124 @@ Similar cases:
 
 How to choose between COMP.demonym and LOC.adm?
 
+### Organization (ORG)
+
+#### Subtypes
+
+* ORG.adm: an organisation which plays a mainly administrative role.
+* ORG.ent: an organisation which doesn’t play a mainly administrative role
+
+#### Coverage of the type Organization
+
+* Considered as Organization:
+  * registered organizations
+  * museums, institutes, universities, libraries (annotate as ORG.ent)
+  * restaraunts (annotate as ORG.ent)
+  * military units (annotate as ORG.ent)
+  * political parties (annotate as ORG.ent)
+  * firms (annotate as ORG.ent)
+  * parliaments (annotate as ORG.adm, e.g., Reichstag, Unterhaus)
+  * courts of justice (annotate as ORG.adm)
+* Not considered as Organization:
+  * theaters (annotate it as LOC.fac)
+
+#### Tricky cases for Organization
+
+* ORG or PER.coll
+
+Blücherſchen Heere
+```xml
+<ORG.ent>
+    <PER.ind>Blücherſchen></PER.ind> 
+    Heere
+</ORG.ent>
+```
+
+```xml
+<PER.coll>
+      <COMP.title> Herren </COMP.title>
+      <ORG.ent>
+        <PER.ind>H.F. Fetschow </PER.ind>& Sohn
+      </ORG.ent>
+</PER.coll>
+```
+
+### Location (LOC)
+
+#### Subtypes
+
+* LOC.adm: a territory with a geopolitical border (e.g., cities, countries & continents)
+* LOC.fac: named buildings (train station & museum) & their extensions (stadium & campus); a physical location of an organisation
+* LOC.oro: an oronym (e.g., are streets, squares, roads & highways)
+* LOC.phys: a physical location (e.g., mountains, rivers & planets)
+
+#### Coverage of the type Location
+
+* Considered as Location:
+* Not considered as LOC.add:
+    * street names without a house number
+* Not considered as LOC.adm:
+    * regions without clear borders (e.g., Ostafrika, Ostindien)
+    * if a location is written as an adjective (e.g., Spanisch)
+    * colonies that can not be attributed to a specific geographical location (e.g., Spaniſchen Kolonieen)
+ * considered LOC.fac:
+    * specific buildings (e.g., Schloss Mannheim)
+    * unspecific buildings (e.g., Haus)
+  
+#### Tricky cases for Location
+
+* Specifications (for ex. island, colony etc.) of locations are annotated as well
+* Streets with house numbers, annotated as LOC.add, will no be linked to streets or buildings at Wikidata.
+* Ireland, when alone: https://www.wikidata.org/wiki/Q22890
+* Great Britain and Ireland, together (1801- 1927): https://www.wikidata.org/wiki/Q174193
+* Great Britain, when alone: https://www.wikidata.org/wiki/Q23666
+* Berl n / Leipz g to Berlin / Leipzig
+* In case of locations that can't be clealy attributed to a city or another location because they are both a city and a location with the same name exist (for example: Samos -> is both city and island) no QID is assigned 
+
+Gardens: LOC.phys (e.g. Jardin des Tuileries)
+
+Islands: LOC.adm 
+
+Theaters: LOC.fac 
+
+ancient cities: LOC.adm (e.g. Pompeii)
+
+military buildings are annotated as LOC.fac
+  
+Kolonie Bourbon
+```xml
+<LOC.adm>Kolonie Bourbon</LOC.adm>
+```
+
+Königsberg
+```xml
+<LOC.adm>Königsberg</LOC.adm>
+```
+
+Königsberg in Pr.
+```xml
+<LOC.adm>Königsberg in Pr.</LOC.adm>
+```
+Berlin Breitestaße No 20
+```xml
+<loc.adm> Berlin </loc.adm>
+<loc.add> Breitestaße No 20 </loc.add> 
+```
+
+Garnison Mühlberg
+```xml
+<LOC.fac> Garnison Mühlberg</LOC.fac>
+```
+## Entity linking
+
+- entities are linked against Wikidata
+- nested entities are linked unless the main entity is PER.ind
+- All types of entities except for components and TIME.range are linked
+- LOC.adm: only linked to address if a Wikipedia article with the exact name of the address exists (in our dataset no such Wikipedia articles existed)
+- If the historical referent differs from the current referent (e.g., Reichsgaue Sudetenland) the historical Wikidata entry is linked. If there is no historical referent, the current Wikidata entry is linked.
+- different iterations of the same organisation (e.g., the Reichstag) are not linked to the specific iteration (e.g., 10. Reichstag) but the general wikidata entry ([Reichstag - Wikidata](https://www.wikidata.org/wiki/Q160208))
+- abbreviations are linked as well if they can be clearly attributed (e.g., SS)
+- in case of a metonymy of PER.coll, PER.ind and ORG.ent (e.g., Firma Gebrüder F. J. Badart -> both ORG.ent and PER.coll) the entities are not linked because distinction is too difficult
 
 ### EVENT
 
@@ -520,8 +539,9 @@ Schlacht an der Katzbach: specific (specific in space and time)
 
 Geburt des jungen Prinzen: not specific
 
-
 ### DATE
+
+#### Tricky cases for DATE
 
 Michaelis d. J. -> 29. September 
 
@@ -531,8 +551,6 @@ Ein u. Zwanzigſten März 1836 -> annotated
 
 Ende Dezember 1831: not specific -> not annotated
 Dezember 1831: specific -> annotated
-
-#### Tricky cases for DATE
 
 1. Juli 1837 bis Ende Dezember 1838
    
@@ -544,44 +562,7 @@ Dezember 1831: specific -> annotated
 </TIME.range>
 ```
 
-```xml
-<TIME.date>Siebter November </TIME.date>
-```
-
-### LOCATION
-
-Streets with house numbers, annotated as LOC.add, will no be linked to streets or buildings at Wikidata.
-
-Ireland, when alone: https://www.wikidata.org/wiki/Q22890
-
-Great Britain and Ireland, together (1801- 1927): https://www.wikidata.org/wiki/Q174193
-
-Great Britain, when alone: https://www.wikidata.org/wiki/Q23666
-
-Berl n / Leipz g to Berlin / Leipzig 
-
-Berlin Breitestaße No 20
-```xml
-<loc.adm> Berlin </loc.adm>
-<loc.add> Breitestaße No 20 </loc.add> 
-```
-In case of locations that can't be clealy attributed to a city or another location because they are both a city and a location with the same name exist (for example: Samos -> is both city and island) no QID is assigned 
-
-Gardens: LOC.phys (e.g. Jardin des Tuileries)
-
-Islands: LOC.adm 
-
-Theaters: LOC.fac 
-
-ancient cities: LOC.adm (e.g. Pompeii)
-
-military buildings are annotated as LOC.fac
-
-Garnison Mühlberg
-```xml
-<LOC.fac> Garnison Mühlberg</LOC.fac>
-```
-
+## Examples
 
 ### ORGANISATION
 
