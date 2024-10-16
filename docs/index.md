@@ -1,13 +1,17 @@
 ---
 layout: default
-title: Annotation guidelines
+title: Annotation guidelines for Reichsanzeiger-NLP (NER and NEL tasks)
 nav_order: 1
 description: "Annotations guidelines for Reichsanzeiger"
 permalink: /
+author:
+  - "Renat Shigapov"
+  - "Lillian Scharnhorst"
+  - "Alexandra Oldokat"
 ---
-
+\newpage
+<!---
 # Annotation guidelines
-
 Table of contents
 * [Introduction](#introduction)
 * [General instructions](#general-instructions)
@@ -17,6 +21,7 @@ Table of contents
 * [References](#references)
 
 **Status.** This is a draft version.
+-->
 
 ## Introduction
 
@@ -816,12 +821,12 @@ Ther are multiple names for the Reichanzeiger newspapaer (https://digi.bib.uni-m
 - Römisches Reich is linked as [Ancient Rome - Wikidata](https://www.wikidata.org/wiki/Q1747689)
 - Malta is linked as [Island of Malta - Wikidata](https://www.wikidata.org/wiki/Q193896)
 - Württemberg from 1806 to 1918:  [Kingdom of Württemberg - Wikidata](https://www.wikidata.org/wiki/Q159631)
-- Nordamerika → Kontinent is linked as [Nordamerika - Wikidata](https://www.wikidata.org/wiki/Q49)
+- Nordamerika -> Kontinent is linked as [Nordamerika - Wikidata](https://www.wikidata.org/wiki/Q49)
 - Goldküste is annotated because its a LOC.adm but no identifier because its not clear which LOC.adm is meant
 - Cordoba is not linked
 
   
-### References
+## References
 
 [1] Ehrmann, Watter, Romanello, & Clematide. (2019). Impresso Named Entity Annotation Guidelines (2.1). Zenodo. [https://doi.org/10.5281/zenodo.3585750](https://doi.org/10.5281/zenodo.3585750)
 
