@@ -4,7 +4,7 @@
 INPUT_FILE="../docs/index.md"
 
 # Output PDF file
-OUTPUT_FILE="../docs/annotation_guidelines.pdf"
+OUTPUT_FILE="../docs/annotation_guidelines_reichsanzeiger_nlp.pdf"
 
 sed -i '' 's/→/->/g' "$INPUT_FILE"
 
