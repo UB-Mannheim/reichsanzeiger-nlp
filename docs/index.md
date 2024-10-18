@@ -561,6 +561,7 @@ Blücherſchen Heere
 </ORG.ent>
 ```
 
+Herren H.F. Fetschow & Sohn
 ```xml
 <PER.coll>
       <COMP.title> Herren </COMP.title>
@@ -578,7 +579,6 @@ Pariser Bijoutier Odiot
      <PER.ind>Odiot</PER.ind>
  </ORG.ent> 
 ```
-PER.ind not annotated
 
 Niederländische Regierung
 ```xml
@@ -608,6 +608,7 @@ Firma: Philipp Cullmann
    <PER.ind> Philipp Cullmann </PER.ind>
 </ORG.ent>
 ```
+
 Lehranſtalt der Jeſuiten in Sikawei
 ```xml
 <ORG.ent>Lehranſtalt der Jeſuiten in Sikawei</ORG.ent>
@@ -625,6 +626,7 @@ Firma J. Tiſcher Nachfolger Gebr. Gerich
 </ORG.ent> Nachfolger
 (<PER.coll>Gebr. Gerich</PER.coll>)
 ```
+
 Actien-Gesellschaft für Eisen-Industrie und Brückenbau vorm. J. C. Harkort
 ```xml
 <ORG.ent>Actien-Gesellschaft für Eisen-Industrie und Brückenbau vorm.    
