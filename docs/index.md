@@ -162,6 +162,7 @@ Annotators shall annotate components only for named entities of type person.
 
 #### Tricky cases for Person
 **cases of PER.coll:**
+
 Prinzeßinen Töchtern, Amalie und Maria.
 ```xml
 <PER.coll>
@@ -277,6 +278,7 @@ Russischer Hof
  ```
 
 **The expressions containing title and demonym are annotated:**
+
 Großherzog von Baden
 ```xml
 <PER.ind>
@@ -348,6 +350,7 @@ Erzbiſchof von Bordeaux
 ```
 
 **Nested entities with components are also annotated:**
+
 Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.
 ```xml
 <PER.ind>
@@ -423,7 +426,8 @@ Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe
 </PER.ind>
 ```
 
-**other cases**
+**other cases:**
+
 Nange sdorf, Sec. Lt. von demſ. Regt.
 ```xml
 <PER.ind>
