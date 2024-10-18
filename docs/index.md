@@ -123,6 +123,8 @@ Annotators shall annotate components only for named entities of type person.
  
 #### specific heuristics for Person
 * Quartett + name (music) is annotated PER.coll (e.g.,Schwedisches National Damen Doppel Quartett)
+* We treated surnames with "von" and a city and surnames with a religious title and a city by annotating both COMP.func and COMP.demonym (examples can be found in the tricky cases section)
+
   
 #### Person Components
 
@@ -154,10 +156,33 @@ Annotators shall annotate components only for named entities of type person.
   * names of noble families if the name is related to a location (e.g., von Solms-Lych)
   * if locations are separable, they are annotated individually: see example
   * if two locations are not separable, they are annotated together (e.g., Rahm⸗Reg.⸗Bez. Düſſeldorf)
+  
 #### specific heuristics for Person Components
 * COMP.func: both civilian and military doctors are annotated as COMP.func
 
 #### Tricky cases for Person
+```xml
+<PER.ind>
+    <COMP.func>Abbe</COMP.func>
+    <COMP.demonym>Montesquiou</COMP.demonym>
+</PER.ind>
+```
+
+```xml
+<PER.ind>
+    <COMP.func>Kardinal</COMP.func>
+    de
+    <COMP.demonym> la Luzerne</COMP.demonym>
+</PER.ind>
+```
+
+```xml
+<PER.ind>
+    den
+    <COMP.func>Erzbiſchof </COMP.func>
+    <COMP.demonym>von Bordeaux</COMP.demonym>
+</PER.ind>
+```
 
 Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych
 ```xml
@@ -473,41 +498,10 @@ How to choose between COMP.demonym and LOC.adm?
 
 Page 13 in [1].
 
-How to treat the following cases?
+We treated the following cases by annotating both COMP.func and COMP.demonym: 
 * surnames with "von" and a city
-* surnames with "Abbe" and a city
-* etc
+* surnames with a religious title and a city
 
-How do we choose between these cases?
-* a person contains COMP.func with LOC.adm inside
-
-```xml
-<PER.ind>
-    <COMP.func>Abbe
-        <LOC.adm>Montesquiou</LOC.adm>
-    </COMP.func>
-</PER.ind>
-```
-
-* a person contains COMP.func with COMP.demonym inside: 
-
-```xml
-<PER.ind>
-    <COMP.func>Abbe
-        <COMP.demonym>Montesquiou</COMP.demonym>
-    </COMP.func>
-</PER.ind>
-```
-
-* a person contains COMP.func only
-
-```xml
-<PER.ind>
-    <COMP.func>Abbe Montesquiou</COMP.func>
-</PER.ind>
-```
-
-* a person contains COMP.func and COMP.demonym
 
 ```xml
 <PER.ind>
@@ -515,17 +509,6 @@ How do we choose between these cases?
     <COMP.demonym>Montesquiou</COMP.demonym>
 </PER.ind>
 ```
-
-* a person contains COMP.func and LOC.adm
-
-```xml
-<PER.ind>
-    <COMP.func>Abbe</COMP.func>
-    <LOC.adm>Montesquiou</LOC.adm>
-</PER.ind>
-```
-
-Similar cases:
 
 ```xml
 <PER.ind>
