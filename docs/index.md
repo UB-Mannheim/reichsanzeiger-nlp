@@ -123,7 +123,7 @@ Annotators shall annotate components only for named entities of type person.
  
 #### specific heuristics for Person
 * Quartett + name (music) is annotated PER.coll (e.g.,Schwedisches National Damen Doppel Quartett)
-* We treated surnames with "von" and a city and surnames with a religious title and a city by annotating both COMP.func and COMP.demonym (examples can be found in the tricky cases section)
+* We treated surnames with "von" and a city and surnames with a religious title and a city by annotating both COMP.func and COMP.demonym (examples can be found in the tricky cases section) -> Page 13 in [1]
 
   
 #### Person Components
@@ -161,123 +161,7 @@ Annotators shall annotate components only for named entities of type person.
 * COMP.func: both civilian and military doctors are annotated as COMP.func
 
 #### Tricky cases for Person
-```xml
-<PER.ind>
-    <COMP.func>Abbe</COMP.func>
-    <COMP.demonym>Montesquiou</COMP.demonym>
-</PER.ind>
-```
-
-```xml
-<PER.ind>
-    <COMP.func>Kardinal</COMP.func>
-    de
-    <COMP.demonym> la Luzerne</COMP.demonym>
-</PER.ind>
-```
-
-```xml
-<PER.ind>
-    den
-    <COMP.func>Erzbiſchof </COMP.func>
-    <COMP.demonym>von Bordeaux</COMP.demonym>
-</PER.ind>
-```
-
-Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych
-```xml
-<PER.coll>
-          <COMP.title>Prinzen</COMP.title>
-          <PER.ind> Karl</PER.ind>, 
-          <PER.ind> Louis</PER.ind>
-          ,und 
-          <PER.ind> Ferdinand</PER.ind>
-          <COMP.demonym> zu Solms⸗Lych</COMP.demonym>
-</PER.coll>
-```
-
-```xml
-<PER.coll>
-      <COMP.title> Herren </COMP.title>
-      <ORG.ent>
-        <PER.ind>H.F. Fetschow </PER.ind>& Sohn
-      </ORG.ent>
-</PER.coll>
-```
-
-The expressions containing title and demonym are annotated:
-
-Großherzog von Baden
-```xml
-<PER.ind>
-    <COMP.title>Großherzog></COMP.title> 
-    <COMP.demonym>von Baden</COMP.demonym>
-</PER.ind>
-```
-
-Se. Köngl. Hoheit der Herzog von Cumberland
-```xml
-<PER.ind>
-    <COMP.title>Se. Köngl. Hoheit</COMP.title>
-    der
-    <COMP.title>Herzog</COMP.title>
-    <COMP.demonym>von Cumberland</COMP.demonym>
-</PER.ind>
-```
-
-Königl. Preußische Lieutentant im Garde-Uhlanen-Regimente, Graf Ratibor von Werßowitz zu Potsdam
-```xml
-<PER.ind>
-    <COMP.title>Königl. Preußische Lieutentant im
-        <ORG.ent>Garde-Uhlanen-Regimente </ORG.ent>
-    </COMP.title>
-    ,
-    <COMP.title>Graf</COMP.title>
-    <COMP.name>Ratibor</COMP.name>
-    <COMP.demonym>von Werßowitz</COMP.demonym>
-   <COMP.demonym>zu Potsdam</COMP.demonym>
-</PER.ind>
-```
-
-ehemalige Gouverneur von Catalonien, Graf Espagne
-```xml
-<PER.ind>
-    <COMP.qualifier>ehemalige</COMP.qulifier>
-    <COMP.func>Gouverneur</COMP.func>
-    <COMP.demonym>von Catalonien</COMP.demonym>
-    ,
-    <COMP.title>Graf</COMP.title>
-    <COMP.name>Espagne</COMP.name>
-</PER.ind>
-```
-
-Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen.
-```xml
-<PER.ind> 
-    <COMP.title>Sr. hochfürſtlichen Durchl.</COMP.title> 
-    des
-    <COMP.title>Prinzen</COMP.title> 
-    <COMP.name>Friedrich</COMP.name>,
-    <COMP.func>Sohnes
-         <PER.ind> 
-              <COMP.title>Sr. Hoheit</COMP.title>
-              des
-              <COMP.title>Kurprinzen </COMP.title>
-          </PER.ind>
-   </COMP.func> 
-</PER.ind>
-```
-
-Kaiſerlich Oeſterreichſche Kabinets⸗Kourier Vardioro.
-```xml
-<PER.ind>
-    <COMP.title>Kaiſerlich></COMP.title> 
-    <COMP.demonym>Oeſterreichſche</COMP.demonym>
-    <COMP.func>Kabinets⸗Kourier</COMP.func>
-    <COMP.name>Vardioro</COMP.name>
-</PER.ind>
-```
-
+**cases of PER.coll:**
 Prinzeßinen Töchtern, Amalie und Maria.
 ```xml
 <PER.coll>
@@ -329,29 +213,141 @@ Herzog und die Herzogin von Angouleme
     <COMP.name>von Angouleme</COMP.name>
 </PER.coll>
 ```
-
-Frau von Lepel, geb. v. d. Lanken
+ 
+Prinzen Karl, Louis, und Ferdinand zu Solms⸗Lych
 ```xml
-<PER.ind> Frau von 
-     <COMP.name> Lepel </COMP.name>
-     , geb. v. d. 
-     <COMP.name> Lanken </COMP.name> 
- </PER.ind>
+<PER.coll>
+          <COMP.title>Prinzen</COMP.title>
+          <PER.ind> Karl</PER.ind>, 
+          <PER.ind> Louis</PER.ind>
+          ,und 
+          <PER.ind> Ferdinand</PER.ind>
+          <COMP.demonym> zu Solms⸗Lych</COMP.demonym>
+</PER.coll>
 ```
 
-Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe
+Geſchwiſter Laura, Amalie und Giſela Neumann
+```xml
+<PER.coll>
+     <COMP.func>Geſchwiſter</COMP.func>
+     <PER.ind>Laura</PER.ind>,
+     <PER.ind>Amalie</PER.ind>
+     und
+     <PER.ind> Giſela</PER.ind>
+     <COMP.name> Neumann</COMP.name>
+</PER.coll>
+```
+
+Kaufleute G. Rosenthal
+```xml 
+<PER.coll>
+    <COMP.func> Kaufleute </COMP.func>
+    <ORG.ent><PER.ind> G. Rosenthal </PER.ind> & Co.</ORG.ent>
+</PER.coll>
+```
+Gebr. Jückstock
+```xml
+<PER.coll>
+   Gebr.
+   <COMP.name>Jückstock</COMP.name>
+</PER.coll>
+```
+
+Firma J. Tiſcher Nachfolger (Gebr. Gerich)
+```xml
+ <ORG.ent>Firma
+      <PER.ind>J. Tiſcher</PER.ind>
+</ORG.ent> Nachfolger
+(<PER.coll>Gebr. Gerich</PER.coll>)
+```
+
+Herren H.F. Fetschow & Sohn
+```xml
+<PER.coll>
+       <COMP.title> Herren </COMP.title>
+       <ORG.ent>
+            <PER.ind>H.F. Fetschow </PER.ind>
+       & Sohn</ORG.ent>
+</PER.coll>
+```
+
+Russischer Hof
+```xml
+<PER.coll>Russisch Kaiserlicher Hof </PER.coll> 
+ ```
+
+**The expressions containing title and demonym are annotated:**
+Großherzog von Baden
 ```xml
 <PER.ind>
-         <COMP.func>Staats⸗Sekretair</COMP.func>
-         und
-         <COMP.func> Chef⸗Praͤſident der 
-                <ORG.adm>Haupt⸗Bank</ORG.adm>
-         </COMP.func> 
-         <COMP.name> Frieſe</COMP.name>
+    <COMP.title>Großherzog></COMP.title> 
+    <COMP.demonym>von Baden</COMP.demonym>
 </PER.ind>
 ```
-Nested entities with components are also annotated:
 
+Se. Köngl. Hoheit der Herzog von Cumberland
+```xml
+<PER.ind>
+    <COMP.title>Se. Köngl. Hoheit</COMP.title>
+    der
+    <COMP.title>Herzog</COMP.title>
+    <COMP.demonym>von Cumberland</COMP.demonym>
+</PER.ind>
+```
+
+Königl. Preußische Lieutentant im Garde-Uhlanen-Regimente, Graf Ratibor von Werßowitz zu Potsdam
+```xml
+<PER.ind>
+    <COMP.title>Königl. Preußische Lieutentant im
+        <ORG.ent>Garde-Uhlanen-Regimente </ORG.ent>
+    </COMP.title>
+    ,
+    <COMP.title>Graf</COMP.title>
+    <COMP.name>Ratibor</COMP.name>
+    <COMP.demonym>von Werßowitz</COMP.demonym>
+   <COMP.demonym>zu Potsdam</COMP.demonym>
+</PER.ind>
+```
+
+ehemalige Gouverneur von Catalonien, Graf Espagne
+```xml
+<PER.ind>
+    <COMP.qualifier>ehemalige</COMP.qulifier>
+    <COMP.func>Gouverneur</COMP.func>
+    <COMP.demonym>von Catalonien</COMP.demonym>
+    ,
+    <COMP.title>Graf</COMP.title>
+    <COMP.name>Espagne</COMP.name>
+</PER.ind>
+```
+
+Abbe Montesquiou
+```xml
+<PER.ind>
+    <COMP.func>Abbe</COMP.func>
+    <COMP.demonym>Montesquiou</COMP.demonym>
+</PER.ind>
+```
+
+Kardinal de la Luzerne
+```xml
+<PER.ind>
+    <COMP.func>Kardinal</COMP.func>
+    de
+    <COMP.demonym> la Luzerne</COMP.demonym>
+</PER.ind>
+```
+
+Erzbiſchof von Bordeaux
+```xml
+<PER.ind>
+    den
+    <COMP.func>Erzbiſchof </COMP.func>
+    <COMP.demonym>von Bordeaux</COMP.demonym>
+</PER.ind>
+```
+
+**Nested entities with components are also annotated:**
 Se. Exc. der General⸗Lieutenant, diesſeitiger außerordentlicher Geſandter und bevollmaͤchtigter Miniſter am Rußiſch Kaiſerlichen Hofe Freiherr von Schoͤler.
 ```xml
 <PER.ind>
@@ -379,6 +375,55 @@ Britiſche General⸗Konſul in Tripolis, Herr Warrington
 </PER.ind>
 ```
 
+Sr. hochfürſtlichen Durchl. des Prinzen Friedrich, Sohnes Sr. Hoheit des Kurprinzen.
+```xml
+<PER.ind> 
+    <COMP.title>Sr. hochfürſtlichen Durchl.</COMP.title> 
+    des
+    <COMP.title>Prinzen</COMP.title> 
+    <COMP.name>Friedrich</COMP.name>,
+    <COMP.func>Sohnes
+         <PER.ind> 
+              <COMP.title>Sr. Hoheit</COMP.title>
+              des
+              <COMP.title>Kurprinzen </COMP.title>
+          </PER.ind>
+   </COMP.func> 
+</PER.ind>
+```
+
+Kaiſerlich Oeſterreichſche Kabinets⸗Kourier Vardioro.
+```xml
+<PER.ind>
+    <COMP.title>Kaiſerlich></COMP.title> 
+    <COMP.demonym>Oeſterreichſche</COMP.demonym>
+    <COMP.func>Kabinets⸗Kourier</COMP.func>
+    <COMP.name>Vardioro</COMP.name>
+</PER.ind>
+```
+
+Frau von Lepel, geb. v. d. Lanken
+```xml
+<PER.ind> Frau von 
+     <COMP.name> Lepel </COMP.name>
+     , geb. v. d. 
+     <COMP.name> Lanken </COMP.name> 
+ </PER.ind>
+```
+
+Staats⸗Sekretair und Chef⸗Praͤſident der Haupt⸗Bank Frieſe
+```xml
+<PER.ind>
+         <COMP.func>Staats⸗Sekretair</COMP.func>
+         und
+         <COMP.func> Chef⸗Praͤſident der 
+                <ORG.adm>Haupt⸗Bank</ORG.adm>
+         </COMP.func> 
+         <COMP.name> Frieſe</COMP.name>
+</PER.ind>
+```
+
+**other cases**
 Nange sdorf, Sec. Lt. von demſ. Regt.
 ```xml
 <PER.ind>
@@ -396,6 +441,7 @@ Professor der Theologie an der Universität Würzburg, Dr. Stein
    <COMP.name>Stein </COMP.name>
 </PER.ind>
 ```
+
 Gemahlin des Geheimen Kommerzien-Raths Henschel zu Kassel
 ```xml
 <PER.ind>
@@ -408,6 +454,7 @@ Gemahlin des Geheimen Kommerzien-Raths Henschel zu Kassel
      </PER.ind>
 </PER.ind>
 ```
+
 verehelichte Klempnermeister Jasch, Louise, geborne Berger, zu Nieder-Hermsdorf
 ```xml
 <PER.ind>
@@ -433,17 +480,7 @@ im Generalstabe
 ```
 -> if Generalstabe were after title it would have been included in title
 
-Geſchwiſter Laura, Amalie und Giſela Neumann
-```xml
-<PER.coll>
-     <COMP.func>Geſchwiſter</COMP.func>
-     <PER.ind>Laura</PER.ind>,
-     <PER.ind>Amalie</PER.ind>
-     und
-     <PER.ind> Giſela</PER.ind>
-     <COMP.name> Neumann</COMP.name>
-</PER.coll>
-```
+
 Oberförſter Joly zu Rahm bei Großenbaum, Reg.⸗Bez. Düſſeldorf
 ```xml
 <PER.ind>
@@ -456,75 +493,6 @@ bei
 <LOC.adm>Reg.⸗Bez. Düſſeldorf</LOC.adm>
 ```
 
-Kaufleute G. Rosenthal
-```xml 
-<PER.coll>
-    <COMP.func> Kaufleute </COMP.func>
-    <ORG.ent><PER.ind> G. Rosenthal </PER.ind> & Co.</ORG.ent>
-</PER.coll>
-```
-Gebr. Jückstock
-```xml
-<PER.coll>
-   Gebr.
-   <COMP.name>Jückstock</COMP.name>
-</PER.coll>
-```
-Firma J. Tiſcher Nachfolger (Gebr. Gerich)
-```xml
- <ORG.ent>Firma
-      <PER.ind>J. Tiſcher</PER.ind>
-</ORG.ent> Nachfolger
-(<PER.coll>Gebr. Gerich</PER.coll>)
-```
-Herren H.F. Fetschow & Sohn
-```xml
-<PER.coll>
-       <COMP.title> Herren </COMP.title>
-       <ORG.ent>
-            <PER.ind>H.F. Fetschow </PER.ind>
-       & Sohn</ORG.ent>
-</PER.coll>
-```
-
-Russischer Hof
-```xml
-<PER.coll>Russisch Kaiserlicher Hof </PER.coll> 
- ```
-
-How to choose between COMP.demonym and LOC.adm?
-
-####  questions for person (will be revised by lillian)
-
-Page 13 in [1].
-
-We treated the following cases by annotating both COMP.func and COMP.demonym: 
-* surnames with "von" and a city
-* surnames with a religious title and a city
-
-
-```xml
-<PER.ind>
-    <COMP.func>Abbe</COMP.func>
-    <COMP.demonym>Montesquiou</COMP.demonym>
-</PER.ind>
-```
-
-```xml
-<PER.ind>
-    <COMP.func>Kardinal</COMP.func>
-    de
-    <COMP.demonym> la Luzerne</COMP.demonym>
-</PER.ind>
-```
-
-```xml
-<PER.ind>
-    den
-    <COMP.func>Erzbiſchof </COMP.func>
-    <COMP.demonym>von Bordeaux</COMP.demonym>
-</PER.ind>
-```
 ### Organization (ORG)
 
 #### Subtypes
